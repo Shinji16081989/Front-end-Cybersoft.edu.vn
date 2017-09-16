@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> HTML form</title>
+  </head>
+  <body>
+    <h1> form dang ky</h1>
+    <form class="" action="index.html" method="post">
+      ho va ten:<br>
+      <input type="text" name="Ho va ten" value="">
+      <br>
+      Password<br>
+      <input type="password" name="" value="">
+      <br>
+      hidden text field
+      <input type="hidden" name="" value="This is hidden">
+      <br>
+      Check box group: <br>
+      Anh van:<input type="checkbox" name="Languages" value="En" checked> <br>
+      Hoa van:<input type="checkbox" name="Languages" value="Chz"> <br>
+      Nhat:<input type="checkbox" name="Languages" value="Jp"> <br>
+      <br>
+      Radio Button Group: <br>
+      Nam <input type="radio" name="sex" value="nam"> <br>
+      Nu <input type="radio" name="sex" value="nu"> <br>
+      <input type="button" name="" value="Register">
+      <br>
+      <input type="reset" name="" value="Reset">
+    </form>
+    <form name="frmMain" action="POST" enctype="multipart/form-data">
+      <input type="file">
+      <input type="button" name="" value="btnNormal" onclick=alert("best")>
+      <textarea name="area" rows="8" cols="80">
+        this is a text area
+      </textarea>
+    </form>
+    <select name="Software">
+      <optgroup label="mutimedia">
+        <option value="W7"> Win7</option>
+      </optgroup>
+      <optgroup label="Software1">
+        <option value="w8">Win8</option>
+      </optgroup>
+      <option value="W9"> Win 9</option>
+      <option value="W10"> Win 10</option>
+      <option selected value="W911"> Win 11</option>
+    </select>
+  </body>
+</html>
