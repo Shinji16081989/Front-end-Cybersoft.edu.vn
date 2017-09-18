@@ -37,9 +37,6 @@
   padding-top: 2px;
 }
 
-.container{
-  padding-top: 10px;
-}
 
 .containSearch{
   position: relative;
@@ -90,4 +87,101 @@ ul{
 
 #inputsearch{
   padding:7px;
+}
+
+.banner img{
+  width: 100%;
+}
+
+.about{
+  width: 100%;
+  height:300px;
+  padding: 40px;
+  padding-left: 40px;
+}
+
+.product1{
+  padding-right: 35px;
+  padding-left: 180px;
+  float: left;
+}
+
+.oneproduct{
+  padding-left: 260px;
+  border: solid 1px #E2E2E2;
+  text-align: center;
+  float: left;
+  height: 300px;
+}
+
+.allproduct{
+  width: 100%;
+  height: 300px;
+}
+
+.info{
+  float: left;
+  width:20%;
+  height:auto;
+  margin: 0;
+  padding-left: 80px;
+}
+
+.info ul li a:link, .info ul li a:visited{
+  color:gray;
+}
+
+.info ul li a:hover{
+  color:green;
+}
+
+.social{
+  width: 34px;
+  height:34px;
+  display: inline-block;
+}
+
+#facebook{
+  background: url(images/s-icons.png);
+  background-position: 0 0;
+}
+
+#twitter{
+  background: url(images/s-icons.png);
+  background-position: -34px 0;
+}
+
+#google{
+  background: url(images/s-icons.png);
+  background-position: 34px 0;
+}
+
+.txtsocial{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -26px;
+  padding-left: 10px;
+}
+
+#txtul{
+  padding-left: 10px;
+}
+
+.info ul{
+  padding-left:10px;
+}
+
+.container1{
+  padding-top: 20px;
+  width: 100%;
+}
+
+.phanvung{
+  width: 100%
+}
+
+.child{
+  width: 50%;
+  float: left;
+  padding-left:
 }
