@@ -1,0 +1,183 @@
+body{
+  margin:0;
+}
+
+.wrapper{
+  margin:0 auto;
+  width: 1170px;
+  height: auto;
+}
+
+.Header{
+  width: 100%;
+  height: 200px;
+  background-color: rgba(128, 128, 128, 0.57);
+  margin-bottom: 10px;
+}
+
+#LeftHeader{
+  width: 15%;
+  height: 150px;
+  background-color: orange;
+  margin-left: 25px;
+  margin-top: 25px;
+  float: left;
+}
+
+#RightHeader{
+  width: 25%;
+  height: 150px;
+  background-color: red;
+  margin-right: 25px;
+  margin-top: 25px;
+  float: right;
+}
+
+.Navigation{
+  width: 100%;
+  height: 100px;
+  background-color: #8e2424;
+  margin-bottom: 10px;
+}
+
+.Image{
+  width: 100%;
+  height: 200px;
+  background-color: orange;
+  margin-bottom: 20px;
+}
+
+.AllBody{
+  width: 100%;
+  height: 600px;
+  margin-bottom: 20px;
+}
+
+.LeftBody{
+  width: 20%;
+  height: 600px;
+  margin-right: 1%;
+  float: left;
+}
+
+#LeftBodyA{
+  width: 100%;
+  height: 220px;
+  background-color: blue;
+  float: inherit;
+  margin-bottom: 10px;
+}
+
+#LeftBodyB{
+  width: 100%;
+  height: 250px;
+  background-color: orange;
+  float: inherit;
+  margin-bottom: 10px;
+}
+
+#LeftBodyC{
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  float: inherit;
+  margin-bottom: 10px;
+}
+
+#LeftBodyD{
+  width: 100%;
+  height: 50px;
+  background-color: orange;
+  float: inherit;
+}
+
+.CenterBody{
+  width: 58%;
+  height: 600px;
+  margin-right: 1%;
+  float: left;
+}
+
+#CenterBodyA{
+  width: 100%;
+  height: 280px;
+  background-color: green;
+  float: inherit;
+  margin-bottom: 10px;
+}
+
+#CenterBodyB{
+  width: 100%;
+  height: 210px;
+  background-color: orange;
+  float: inherit;
+  margin-bottom: 10px;
+}
+
+#CenterBodyC{
+  width: 100%;
+  height: 90px;
+  background-color: red;
+  float: inherit;
+}
+
+.RightBody{
+  width: 20%;
+  height: 600px;
+  float: left;
+}
+
+#RightBodyA{
+  width: 100%;
+  height: 250px;
+  background-color: blue;
+  margin-bottom: 10px;
+}
+
+#RightBodyB{
+  width: 100%;
+  height: 250px;
+  background-color: blue;
+  margin-bottom: 10px;
+}
+
+#RightBodyC{
+  width: 100%;
+  height: 80px;
+  background-color: orange;
+}
+
+.Footer{
+  width: 100%;
+  height: 200px;
+  background-color: #080846;
+  margin-bottom: 20px;
+}
+
+#LeftFooter{
+  width: 23%;
+  height: 120px;;
+  background-color: lightblue;
+  margin-top:40px;
+  margin-left: 5%;
+  margin-right: 10%;
+  float: left;
+}
+
+#CenterFooter{
+  width: 24%;
+  height: 120px;;
+  background-color: lightblue;
+  margin-top:40px;
+  margin-right: 10%;
+  float: left;
+}
+
+#RightFooter{
+  width: 23%;
+  height: 120px;;
+  background-color: lightblue;
+  margin-top:40px;
+  margin-right: 5%;
+  float: left;
+}
