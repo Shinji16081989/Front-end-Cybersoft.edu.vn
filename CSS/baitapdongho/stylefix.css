@@ -1,0 +1,206 @@
+body{
+  margin:0;
+}
+
+.top{
+  width: 100%;
+  background-color: black;
+  height: 60px;
+}
+
+.container{
+  width: 1170px;
+  height: auto;
+  margin:0 auto;
+}
+
+#giohang{
+  float: right;
+  padding:10px;
+  text-align: center;
+  color: white;
+}
+
+#giohang p{
+  padding: 0;
+  margin-top: 0;
+}
+
+#giohang a:link, #giohang a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.brand{
+  text-align: center;
+  border-bottom: solid 1px grey;
+}
+
+.Nav{
+  width: 100%;
+  height: 50px;
+}
+
+#NavLeft{
+  width: 70%;
+  height: 60px;
+	float:left;
+}
+
+#NavLeft ul li{
+  float: left;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+#NavLeft ul li a{
+  color: Black;
+  text-decoration: none;
+}
+
+#NavLeft ul li a:hover{
+  color: purple;
+}
+
+#NavRight{
+  width: 30%;
+  height:60px;
+  float: Left;
+}
+
+.containSearch{
+  float: right;
+  margin-top: 10px;
+}
+
+#inputsearch{
+  padding: 10px;
+}
+
+#submitsearch{
+  background: url(images/search.png)no-repeat;
+  border: 0;
+  padding-right: 15px;
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  right: 16%;
+  top: 24%;
+}
+
+.image img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.about{
+  width: 100%;
+  height: 300px;
+}
+
+#about1{
+  float: left;
+  margin-right: 60px;
+}
+
+#about2{
+  float: left;
+  margin-right: 60px
+}
+
+#about3{
+  float: right;
+}
+
+.product{
+  width: 90%;
+  height: 716px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.thongtinproduct{
+
+}
+
+.oneproduct {
+  border: solid 1px #E2E2E2;
+  text-align: center;
+  float: left;
+  margin-right: 75px;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+.oneproduct1{
+  border: solid 1px #E2E2E2;
+  text-align: center;
+  float: left;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+.info{
+  width: 25%%;
+  height: auto;
+  float: left;
+  margin-right: 17%;
+}
+
+.info ul {
+	padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.info ul  li a{
+	text-decoration:none;
+}
+
+.info ul  li a:link, .info ul  li a:visited{
+	color: gray;
+}
+
+.info ul  li a:hover {
+	color: green;
+}
+
+span.social{
+  padding: 17px;
+  margin: 0px;
+  display: inline-block;
+}
+
+#facebook {
+    background: url(images/s-icons.png);
+    background-position: 0 0;
+}
+
+#Twitter {
+    background: url(images/s-icons.png);
+    background-position: -34px 0;
+}
+
+#Google {
+    background: url(images/s-icons.png);
+    background-position: -68px 0;
+}
+
+.txtsocial {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -22px;
+    padding-left: 10px;
+}
+
+.phanvung{
+  width: 100%;
+}
+
+.containerleft{
+  float: left;
+}
+
+.containerright{
+  float: right;
+}
