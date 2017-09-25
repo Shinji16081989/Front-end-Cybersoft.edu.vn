@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Travel Form</title>
+    <link rel="stylesheet" href="TravelForm.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="bodyform">
+        <div class="header">
+          <div id="headertxt">
+            <span>Travel Authorization Form</span>
+          </div>
+        </div>
+        <div class="SectionA">
+          <div class="Section_header">
+            <span id="sectiontitle"> Section A:Client information</span>
+          </div>
+          <hr id="phanvung">
+          <div class="SectionAform">
+            <form class="formA" method="post">
+              <div>
+                <label>Title:</label>
+                <input type="text" id="title">
+              </div>
+              <div>
+                <label>First name:</label>
+                <input type="text" id="firstname">
+              </div>
+              <div>
+                <label>Middle intinal:</label>
+                <input type="text" id="middleintinal">
+              </div>
+              <div>
+                <label>Last name:</label>
+                <input type="text" id="lastname">
+              </div>
+              <div>
+                <label>E-mail address:</label>
+                <input type="email" id="email">
+              </div>
+              <div>
+                <label>Phone number:</label>
+                <input type="text" id="phone">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="SectionB">
+          <div class="Section_header">
+            <span id="sectiontitle"> Section B:Travel Infomation</span>
+          </div>
+          <hr id="phanvung">
+          <div class="SectionBform">
+            <form class="formBleft" method="post">
+              <div>
+                <label> Airline name: </label>
+                <select name="Airline" id="Airlinename">
+                  <option value = "0">Select An Airline</option>
+                  <option value = "VNA">Vietnam Airline</option>
+                  <option value = "CNA">China Airline</option>
+                  <option value = "CPNA">Campuchia Airline</option>
+                  <option value = "IDNA">Indonesia Airline</option>
+                  <option value = "LA">Laos Airline</option>
+                  <option value = "TLA">Thailan Airline</option>
+                  <option value = "HKA">Hongkong Airline</option>
+                  <option value = "MLA">Malaysia Airline</option>
+                  <option value = "PLA">Philipines Airline</option>
+                  <option value = "SGA">Singapore Airline</option>
+                  <option value = "MYA">Myanmar Airline</option>
+                </select>
+              </div>
+              <div>
+                <label>Destination:</label>
+                <input type="text" id="destination">
+              </div>
+              <div>
+                <label>Leave date</label>
+                <input type="date" id="leavedate">
+              </div>
+              <div>
+                <label>Return date</label>
+                <input type="date" id="returndate">
+              </div>
+              <div>
+                <label>Estimated cost</label>
+                <input type="text" id="Estimatedcost">
+              </div>
+              <div>
+                <label>Includes Customer visit?</label>
+                <input type="checkbox" id="visit">
+              </div>
+            </form>
+            <form class="formBRight" method="post">
+              <div class="formBRightTop">
+                <span>Additional estimated expenses:</span>
+                <div class="estimate">
+                  <div>
+                    <label>Car rental</label>
+                    <input type="text" id="carrental">
+                  </div>
+                  <div>
+                    <label>Hotel</label>
+                    <input type="text" id="hotel">
+                  </div>
+                  <div>
+                    <label>Meals</label>
+                    <input type="text" id="meals">
+                  </div>
+                  <div>
+                    <label>Total estimate</label>
+                    <input type="text" id="total">
+                  </div>
+                </div>
+              </div>
+              <div class="formBRightBot">
+                <span>Payment method used:</span>
+                <div class="Payment">
+                  <div>
+                    <label>Cash</label>
+                    <input type="radio" id="cash" name="Paymentmethod">
+                  </div>
+                  <div>
+                    <label>Credit card</label>
+                    <input type="radio" id="Credit card" name="Paymentmethod">
+                  </div>
+                  <div>
+                    <label>Check</label>
+                    <input type="radio" id="check" name="Paymentmethod">
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="Footer">
+          <form class="" action="index.html" method="post">
+            <div class="Purpose">
+              <span id="purposetxt">Purpose of travel</span>
+              <textarea rows="10" cols="80" id="purposetxtare"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="submitbutton">
+          <button id="button" type="submit" name="button" >Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
