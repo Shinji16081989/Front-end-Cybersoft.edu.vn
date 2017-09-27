@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Dynamic Search</title>
+  <link rel="stylesheet" href="DynamicSearch.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="wrapperinside">
+      <div class="Header">
+        <div id="HeaderLine"></div>
+        <div id="Headertxt">
+          <span id="textheader"> Dynamic Search to Form Applications</span>
+          <hr id="lineheader">
+        </div>
+      </div>
+      <div class="MainButton">
+        <form action="#" method="post">
+          <button type="button" name="button" id="DynamicSearch">Dynamic Search</button>
+        </form>
+      </div>
+      <div class="BorderDynamicSearch">
+        <div class="DynamicSearchHeader">
+          <button type="button" name="button">-</button>
+          <span> Dynamic Search</span>
+        </div>
+          <form class="DynamicSearchForm" action="#" method="post">
+            <div id="Dynamicbodytxt">
+              <div>
+                <label> Country </label>
+                <select id="country">
+                  <option value="">Contains</option>
+                </select>
+                <input type="text" name="" value="UK">
+                <button type="button" name="button">X</button>
+              </div>
+              <div>
+                <label> Company Name</label>
+                <select id="Companyname">
+                  <option value="">Contains</option>
+                </select>
+                <input id="Companynametxt" type="text" name="" value="A">
+                <button type="button" name="button">X</button>
+              </div>
+            </div>
+          </form>
+          <div>
+            <form action="#" method="post">
+              <button type="button" name="button" id="AddField">Add Fields</button>
+              <button type="button" name="button" id="Clear">Clear</button>
+              <button type="button" name="button" id="Apply">Apply</button>
+            </form>
+          </div>
+        </div>
+        <div class="ApplicationForm">
+          <form class="wrapperapp" action="index.html" method="post">
+            <div>
+              <label id="formtxt"> ID</label>
+              <span>1</span>
+            </div>
+            <div>
+              <label id="formtxt"> Company Name</label>
+              <input id="Companynametxt"type="text" name="" value="" placeholder="Exotic Liquids">
+            </div>
+            <div>
+              <label id="formtxt"> Contact Name</label>
+              <input id="Companynametxt"type="text" name="" value="" placeholder="Charlotte Cooper">
+            </div>
+            <div>
+              <label id="formtxt"> Contact Title</label>
+              <input id="Companynametxt"type="text" name="" value="" placeholder="Purchasing Manager">
+            </div>
+            <div>
+              <label id="formtxt"> Country</label>
+              <input id="Companynametxt"type="text" name="" value="" placeholder="UK">
+            </div>
+            <div>
+              <label id="formtxt"> Postal Code</label>
+              <input id="postalcode"type="text" name="" value="" placeholder="EC1 4SD">
+            </div>
+            <div>
+              <label id="formtxt"> Address</label>
+              <input id="Companynametxt"type="text" name="" value="" placeholder="49 Gilbert St">
+            </div>
+            <div>
+              <label id="formtxt"> Phone</label>
+              <input id="Companynametxt"type="text" name="" value="" placeholder="(171) 555-2222">
+            </div>
+          </form>
+        </div>
+        <div class="footer">
+          <form class="footerAll" action="#" method="post">
+            <div class="footerright">
+              <button type="submit" name="button" id="submitbutton"> Go to</button>
+              <input type="text" id="submit">
+            </div>
+            <div class="footercenter">
+              <div class="footercenterA">
+                <a href="#" class="previous">&#x027EA;</a>
+                <a href="#" class="previous">&#x027E8;</a>
+              </div>
+              <div class="footercenterB">
+                <div class="pagination">
+                  <a href="#" class="active">1</a>
+                  <a href="#">2</a>
+                  <a href="#">3</a>
+                  <a href="#">4</a>
+                  <a href="#">5</a>
+                  <a href="#">6</a>
+                </div>
+              </div>
+              <div class="footercenterC">
+                <a href="#" class="next round">&#x027E9;</a>
+                <a href="#" class="next round">&#x027EB;</a>
+              </div>
+            </div>
+            <div class="footerleft">
+              <span> [1 of 29]</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

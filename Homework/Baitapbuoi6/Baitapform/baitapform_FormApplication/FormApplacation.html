@@ -1,67 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title> Form Applacation</title>
-    <link rel="stylesheet" href="FormApplacation.css">
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="wrapperinside">
-        <div class="Header">
-          <div id="HeaderLine"></div>
-          <div id="Headertxt">
-            <span id="textheader"> Form Application with Group Buttons</span>
-            <hr id="lineheader">
-          </div>
+
+<head>
+  <meta charset="utf-8">
+  <title> Form Applacation</title>
+  <link rel="stylesheet" href="FormApplacation.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="wrapperinside">
+      <div class="Header">
+        <div id="HeaderLine"></div>
+        <div id="Headertxt">
+          <span id="textheader"> Form Application with Group Buttons</span>
+          <hr id="lineheader">
         </div>
-        <div class="bodyform">
-          <form action="#" method="post">
-            <div id="groupbuttons">
-              <div class="biggrouptitle">
-                <select id="grouptitle">
+      </div>
+      <div class="bodyform">
+        <form action="#" method="post">
+          <div id="groupbuttons">
+            <div class="biggrouptitle">
+              <select id="grouptitle">
                   <option value="0">Group Buttons</option>
                   <option value="PDF" id="itemgroup">PDF</option>
                   <option value="Print" id="itemgroup">Print</option>
                 </select>
-              </div>
             </div>
-          </form>
-          <div class="ApplicationForm">
-            <form class="wrapperapp" action="index.html" method="post">
-              <div>
-                <label id="formtxt"> ID</label>
-                <span>ALFKI</span>
-              </div>
-              <div>
-                <label id="formtxt"> Company Name</label>
-                <input type="text" id="Companyname" value="" placeholder="Alfreds Futterkiste">
-              </div>
-              <div>
-                <label id="formtxt"> Contact Name</label>
-                <input type="text" id="Contactname" value="" placeholder="Maria Anders s">
-              </div>
-              <div>
-                <label id="formtxt"> Contact Title</label>
-                <input type="text" id="Contacttitle" value="" placeholder="Sales Representative">
-              </div>
-              <div>
-                <label id="formtxt"> Birth Date</label>
-                <input type="date" id="birthdate" value="07/27/1974" placeholder="07/27/1974">
-                <span> mm/dd/yyyy</span>
-              </div>
-              <div>
-                <label id="formtxt">Country</label>
-                <input type="text" id="country" value="" placeholder="DE">
-              </div>
-              <div>
-                <label id="formtxt">Region</label>
-                <input type="text" id="region" value="" placeholder="6">
-                <span>East South Central</span>
-              </div>
-              <div>
-                <label id="formtxt">State</label>
-                <select id="state">
+          </div>
+        </form>
+        <div class="ApplicationForm">
+          <form class="wrapperapp" action="index.html" method="post">
+            <div>
+              <label id="formtxt"> ID</label>
+              <span>ALFKI</span>
+            </div>
+            <div>
+              <label id="formtxt"> Company Name</label>
+              <input type="text" id="Companyname" value="" placeholder="Alfreds Futterkiste">
+            </div>
+            <div>
+              <label id="formtxt"> Contact Name</label>
+              <input type="text" id="Contactname" value="" placeholder="Maria Anders s">
+            </div>
+            <div>
+              <label id="formtxt"> Contact Title</label>
+              <input type="text" id="Contacttitle" value="" placeholder="Sales Representative">
+            </div>
+            <div>
+              <label id="formtxt"> Birth Date</label>
+              <input type="date" id="birthdate" value="07/27/1974" placeholder="07/27/1974">
+              <span> mm/dd/yyyy</span>
+            </div>
+            <div>
+              <label id="formtxt">Country</label>
+              <input type="text" id="country" value="" placeholder="DE">
+            </div>
+            <div>
+              <label id="formtxt">Region</label>
+              <input type="text" id="region" value="" placeholder="6">
+              <span>East South Central</span>
+            </div>
+            <div>
+              <label id="formtxt">State</label>
+              <select id="state">
                   <option value="0">Utah</option>
                 	<option value="AL">Alabama</option>
                 	<option value="AK">Alaska</option>
@@ -114,10 +116,10 @@
                 	<option value="WI">Wisconsin</option>
                 	<option value="WY">Wyoming</option>
                 </select>
-              </div>
-              <div>
-                <label id="formtxt">City</label>
-                <select id="city">
+            </div>
+            <div>
+              <label id="formtxt">City</label>
+              <select id="city">
                   <option value="0">Applewood</option>
                   <option value="NY">NewYork</option>
                   <option value="SA">San Diego</option>
@@ -125,62 +127,63 @@
                   <option value="BT">Boston</option>
                   <option value="WT">Washington</option>
                 </select>
-              </div>
-              <div>
-                <label id="formtxt">Address</label>
-                <input type="text" id="address" value="" placeholder="Obere Str. 57">
-              </div>
-              <div>
-                <label id="formtxt">Postal Code</label>
-                <input type="text" id="postal" value="" placeholder="12209">
-              </div>
-              <div>
-                <label id="formtxt">Phone</label>
-                <input type="text" id="phone" value="" placeholder="30074321">
-              </div>
-              <div>
-                <label id="formtxt">Fax</label>
-                <input type="text" id="fax" value="" placeholder="030-0076545">
-              </div>
-              <div>
-                <label id="formtxt">Credit Limit</label>
-                <input type="text" id="credit" value="" placeholder="3,367.41">
-              </div>
-            </form>
-          </div>
-          </div>
-          <div class="footer">
-            <form class="footerAll" action="#" method="post">
-              <div class="footerright">
-                <button type="submit" name="button" id="submitbutton"> Go to</button>
-                <input type="text" id="submit">
-              </div>
-              <div class="footercenter">
-                <div class="footercenterA">
-                  <a href="#" class="previous">&#x027EA;</a>
-                  <a href="#" class="previous">&#x027E8;</a>
-                </div>
-                <div class="footercenterB">
-                  <div class="pagination">
-                    <a href="#"class="active">1</a>
-                    <a href="#">2</a>
-                    <a href="#">3</a>
-                    <a href="#">4</a>
-                    <a href="#">5</a>
-                    <a href="#">6</a>
-                  </div>
-                </div>
-                <div class="footercenterC">
-                  <a href="#" class="next round">&#x027E9;</a>
-                  <a href="#" class="next round">&#x027EB;</a>
-                </div>
-              </div>
-              <div class="footerleft">
-                <span> [1 of 91]</span>
-              </div>
-            </form>
+            </div>
+            <div>
+              <label id="formtxt">Address</label>
+              <input type="text" id="address" value="" placeholder="Obere Str. 57">
+            </div>
+            <div>
+              <label id="formtxt">Postal Code</label>
+              <input type="text" id="postal" value="" placeholder="12209">
+            </div>
+            <div>
+              <label id="formtxt">Phone</label>
+              <input type="text" id="phone" value="" placeholder="30074321">
+            </div>
+            <div>
+              <label id="formtxt">Fax</label>
+              <input type="text" id="fax" value="" placeholder="030-0076545">
+            </div>
+            <div>
+              <label id="formtxt">Credit Limit</label>
+              <input type="text" id="credit" value="" placeholder="3,367.41">
+            </div>
+          </form>
         </div>
       </div>
+      <div class="footer">
+        <form class="footerAll" action="#" method="post">
+          <div class="footerright">
+            <button type="submit" name="button" id="submitbutton"> Go to</button>
+            <input type="text" id="submit">
+          </div>
+          <div class="footercenter">
+            <div class="footercenterA">
+              <a href="#" class="previous">&#x027EA;</a>
+              <a href="#" class="previous">&#x027E8;</a>
+            </div>
+            <div class="footercenterB">
+              <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+              </div>
+            </div>
+            <div class="footercenterC">
+              <a href="#" class="next round">&#x027E9;</a>
+              <a href="#" class="next round">&#x027EB;</a>
+            </div>
+          </div>
+          <div class="footerleft">
+            <span> [1 of 91]</span>
+          </div>
+        </form>
+      </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
