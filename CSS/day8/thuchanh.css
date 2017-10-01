@@ -1,0 +1,47 @@
+.wrapper {
+  width: 20%;
+  height: 300px;
+  border: 1px solid grey;
+  margin: 0 auto;
+  box-shadow: 10px 10px 35px grey;
+}
+
+.top {
+  width: 100%;
+  height: 250px;
+  background-color: #36d436;
+  text-align: center;
+  background: -moz-linear-gradient(bottom right, red, blue, yellow);
+  background: -webkit-linear-gradient(bottom right, red, blue, yellow);
+  background: -o-linear-gradient(bottom right, red, blue, yellow);
+  background: linear-gradient(bottom right, red, blue, yellow);
+}
+
+#content {
+  margin: 0 auto;
+}
+
+#content span {
+  color: white;
+  font-size: 150px;
+  margin: 0 auto;
+  line-height: 230px;
+  text-shadow: 2px 2px 8px blue;
+}
+
+.bot {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+#date {
+  margin: 0 auto;
+}
+
+#date span {
+  color: black;
+  font-size: 30px;
+  display: block;
+  line-height: 50px;
+}

@@ -1,0 +1,43 @@
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+}
+
+.body{
+  width: 100%;
+  height: 600px;
+}
+
+.bodyleft{
+  width: 30%;
+  height: 600px;
+  float: left;
+}
+
+#bodytopleft{
+  width: 100%;
+  height: 300px;
+  float: inherit;
+  background-color: blue;
+}
+
+#bodybotleft{
+  width: 100%;
+  height: 300px;
+  float: inherit;
+  background-color: green;
+}
+
+.bodyright{
+  width: 70%;
+  height: 600px;
+  background-color: pink;
+  float: left;
+}
+
+.footer{
+  width: 100%;
+  background-color: grey;
+  height: 200px;
+}
