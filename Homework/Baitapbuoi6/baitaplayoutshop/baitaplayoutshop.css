@@ -1,0 +1,217 @@
+@font-face {
+  font-family: awesome;
+  src: url('fonts/fontawesome-webfont.eot');
+  src: url('fonts/fontawesome-webfont.svg') format('svg'), url('fonts/fontawesome-webfont.ttf') format('truetype'), url('fonts/fontawesome-webfont.woff') format('woff'), url('fonts/FontAwesome.otf') format('otf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: glyphicons;
+  src: url('fonts/glyphicons-halflings-regular.woff') format('woff');
+  src: url('fonts/glyphicons-halflings-regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: normal;
+}
+
+body{
+  margin: 0;
+}
+
+.wrapper{
+  width: 100%;
+  height: 2000px;
+  margin: 0 auto;
+}
+.container{
+  width: 90%;
+  height: 2000px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.header{
+  width: 100%;
+  height: 1000px;
+}
+
+.topheader{
+  width: 100%;
+  height: 60px;
+  background-color: #2f88c7;
+}
+
+#topheaderrighttxt{
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  float: left;
+  line-height: 60px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+#topheaderlefttxt{
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  float: right;
+  line-height: 60px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+#topheaderlefttxt1{
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  float: right;
+  line-height: 60px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.navheader{
+  width: 100%;
+  height: 140px;
+  background-color: #006bb7;
+}
+
+.logotxt{
+  width: 18%;
+  height: 100px;
+  margin-top: 5px;
+  display: block;
+  float: left;
+}
+
+#logo{
+  font-family: 'Germania One';
+  font-size: 75px;
+  color: white;
+  display: inline-block;
+}
+
+#slogan{
+  font-family: sans-serif;
+  letter-spacing: 13px;
+  color: white;
+  display: block;
+  margin-top: -8%;
+}
+
+.navheaderinside{
+  width:40%;
+  height: 50px;
+  margin-top: 3%;
+  float: left;
+}
+
+#navtxt{
+  display: flex;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
+
+#navtxt li{
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 11%;
+}
+
+.women{
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 11%;
+  color: white;
+}
+
+.searchbutton{
+  color: white;
+  font-size: 30px;
+  display: inline-block;
+  margin-top: 3%;
+  width: 25%;
+  float: left;
+}
+
+.searchbutton a{
+  color: white;
+  margin-left: 85%;
+}
+
+.searchbutton a:hover{
+  color: white;
+}
+
+.cart{
+  height: auto;
+  float: left;
+  margin-top: 3%;
+  margin-left: 9%;
+}
+
+.cart span{
+  font-family: sans-serif;
+  color: white;
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.headerimage{
+  width: 100%;
+  height: 600px;
+  background-image: url('images/b2.jpg');
+  background-size: cover;
+}
+
+.arrow {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  margin-top: 14%;
+}
+
+#leftarrow{
+  display: inline-block;
+  font-size: 23px;
+  width: 50%;
+}
+
+#leftarrow span{
+  float: left;
+  border: 2px dashed white;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 45px;
+  background-color: #006bb7;
+  border-radius: 25px;
+  color: white;
+}
+
+#rightarrow{
+  display: inline-block;
+  font-size: 23px;
+  width: 50%;
+}
+
+#rightarrow span{
+  float: right;
+  border: 2px dashed white;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 45px;
+  background-color: #006bb7;
+  border-radius: 25px;
+  color: white;
+}
