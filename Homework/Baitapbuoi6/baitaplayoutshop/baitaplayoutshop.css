@@ -74,15 +74,14 @@ body{
 
 .navheader{
   width: 100%;
-  height: 140px;
+  height: 14%;
   background-color: #006bb7;
 }
 
 .logotxt{
   width: 18%;
-  height: 100px;
-  margin-top: 5px;
-  display: block;
+  height: 6%;
+  display: inline-block;
   float: left;
 }
 
@@ -146,7 +145,7 @@ body{
   margin-left: 85%;
 }
 
-.searchbutton a:hover{
+.searchbutton a:hover, .searchbutton a:active{
   color: white;
 }
 
