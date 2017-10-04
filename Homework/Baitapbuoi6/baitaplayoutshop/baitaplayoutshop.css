@@ -32,7 +32,7 @@ body{
 
 .header{
   width: 100%;
-  height: 1000px;
+  height: 850px;
 }
 
 .topheader{
@@ -89,7 +89,7 @@ body{
   font-family: 'Germania One';
   font-size: 75px;
   color: white;
-  display: inline-block;
+  display: block;
 }
 
 #slogan{
@@ -162,7 +162,7 @@ body{
   float: right;
   font-size: 16px;
   font-weight: bold;
-  display: inline-block;
+  display: block;
 }
 
 .headerimage{
@@ -213,4 +213,134 @@ body{
   background-color: #006bb7;
   border-radius: 25px;
   color: white;
+}
+
+.body{
+  width: 100%;
+  height: 500px;
+}
+
+.topbody{
+  width: 100%;
+  height: 525px;
+  display: flex;
+}
+
+.topbodyleft{
+  width: 40%;
+  height: 525px;
+  background-image: url('images/p1.jpg');
+  background-size: cover;
+  margin-right: 5%;
+  text-align: center;
+  float: inherit;
+}
+
+#topbodyleftcircleoff{
+  width: 100%;
+  height: 225px;
+  margin-bottom: 10%;
+}
+
+#topbodyleftcircleoff span{
+  color: white;
+  line-height: 35px;
+  display: inline-block;
+  border: 1px solid #006bb7;
+  width: 14%;
+  height: 40%;
+  background-color: #006bb7;
+  border-radius: 70%;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20%;
+}
+
+#botbodyleftsquare{
+  width: 100%;
+  height: 200px;
+  opacity: 0.7;
+}
+
+#botbodyleftsquare span{
+  color: white;
+  line-height: 40px;
+  display: inline-block;
+  border: 1px solid #006bb7;
+  background-color: #006bb7;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.topbodyright{
+  width: 55%;
+  height: 525px;
+}
+
+.topbodyrightontop{
+  width: 100%;
+  height: 60%;
+  background-image: url('images/p2.jpg');
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#topbodyrightsquare{
+  color: white;
+  line-height: 40px;
+  display: inline-block;
+  border: 1px solid #006bb7;
+  background-color: #006bb7;
+  padding: 0 20px;
+  font-size: 20px;
+  margin-top: 15%;
+    opacity: 0.7;
+}
+
+.botbodyright{
+  width: 100%;
+  height: 35%;
+  margin-top: 4%;
+}
+
+#botbodyright1{
+  width: 45%;
+  height: 100%;
+  margin-right: 10%;
+  float: left;
+  background-image: url('images/p3.jpg');
+}
+
+#botbodyright2{
+  width: 45%;
+  height: 100%;
+  float: right;
+  background-image: url('images/p4.jpg');
+}
+
+#topbodyrightsquare1{
+  color: white;
+  line-height: 40px;
+  display: inline-block;
+  border: 1px solid #006bb7;
+  background-color: #006bb7;
+  padding: 0 20px;
+  font-size: 20px;
+  margin-top: 20%;
+  opacity: 0.7;
+      margin-left: 35%;
+}
+
+#topbodyrightsquare2{
+  color: white;
+  line-height: 40px;
+  display: inline-block;
+  border: 1px solid #006bb7;
+  background-color: #006bb7;
+  padding: 0 20px;
+  font-size: 20px;
+  margin-top: 20%;
+  opacity: 0.7;
+      margin-left: 35%;
 }
