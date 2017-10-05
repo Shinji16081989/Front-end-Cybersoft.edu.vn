@@ -79,7 +79,7 @@ body {
 }
 
 .logotxt {
-  width: 18%;
+  width: 25%;
   height: 6%;
   display: inline-block;
   float: left;
@@ -136,7 +136,7 @@ body {
   font-size: 30px;
   display: inline-block;
   margin-top: 3%;
-  width: 25%;
+  width: 15%;
   float: left;
 }
 
@@ -154,6 +154,7 @@ body {
   float: left;
   margin-top: 3%;
   margin-left: 9%;
+  width: 11%;
 }
 
 .cart span {
