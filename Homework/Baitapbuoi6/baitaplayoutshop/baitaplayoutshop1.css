@@ -26,9 +26,8 @@ body {
 
 .container {
   width: 90%;
-  height: 2000px;
+  height: auto;
   margin: 0 auto;
-  border: 1px solid black;
 }
 
 .header {
@@ -176,7 +175,7 @@ body {
 .arrow {
   width: 100%;
   height: 30%;
-  display: flex;
+  display: inline-flex;
   margin-top: 14%;
 }
 
@@ -348,7 +347,7 @@ body {
 
 .centerbody {
   width: 100%;
-  height: 680px;
+  height: 700px;
 }
 
 .centerbody h1 {
@@ -744,4 +743,337 @@ body {
   border-left: 20px solid transparent;
   border-right: 0px solid transparent;
   border-top: 10px solid #b77b0d;
+}
+
+.fashiontrends {
+  width: 100%;
+  height: 900px;
+}
+
+.fashiontrendstop {
+  width: 100%;
+  height: 315px;
+  margin-bottom: 6%;
+}
+
+#fashiontrendtop1 {
+  width: 30%;
+  height: 315px;
+  margin-right: 5%;
+  float: left;
+  background-image: url('images/l1.jpg');
+  background-size: cover;
+}
+
+#fashiontrendtop2 {
+  width: 30%;
+  height: 315px;
+  margin-right: 5%;
+  float: left;
+  background-image: url('images/l2.jpg');
+  background-size: cover;
+}
+
+#fashiontrendtop3 {
+  width: 30%;
+  height: 315px;
+  float: left;
+  background-image: url('images/l3.jpg');
+  background-size: cover;
+}
+
+.fashiontrendsbot {
+  width: 100%;
+  height: 315px;
+}
+
+#fashiontrendbot1 {
+  width: 30%;
+  height: 315px;
+  margin-right: 5%;
+  float: left;
+  background-image: url('images/l4.jpg');
+  background-size: cover;
+}
+
+#fashiontrendbot2 {
+  width: 30%;
+  height: 315px;
+  margin-right: 5%;
+  float: left;
+  background-image: url('images/l5.jpg');
+  background-size: cover;
+}
+
+#fashiontrendbot3 {
+  width: 30%;
+  height: 315px;
+  float: left;
+  background-image: url('images/l6.jpg');
+  background-size: cover;
+}
+
+#sale {
+  color: white;
+  border: 1px solid #006bb7;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  border-radius: 40px;
+  background-color: #006bb7;
+  line-height: 75px;
+  font-size: 25px;
+  margin-left: 81%;
+  margin-top: 3%;
+  font-family: 'Pacifico';
+}
+
+#trendcategory {
+  color: white;
+  border: 1px solid #006bb7;
+  background-color: #006bb7;
+  display: block;
+  text-align: center;
+  padding: 3%;
+  font-size: 30px;
+  margin-top: 145px;
+  opacity: 0.7;
+  font-family: 'Pacifico';
+}
+
+.centerbodybot {
+  width: 100%;
+  height: 750px;
+}
+
+.centerbodybot h1 {
+  color: blue;
+  font-family: 'Ubuntu';
+  text-align: center;
+  font-size: 5em;
+  margin-top: 200px;
+}
+
+#centerbody1imagebot1 {
+  width: 100%;
+  height: 70%;
+  background-image: url('images/p27.jpg');
+  background-size: cover;
+  display: flex;
+}
+
+#centerbody1imagebot1:hover {
+  width: 100%;
+  height: 70%;
+  background-image: url('images/p28.jpg');
+  background-size: cover;
+}
+
+#centerbody2imagebot2 {
+  width: 100%;
+  height: 70%;
+  background-image: url('images/p29.jpg');
+  background-size: cover;
+  display: flex;
+}
+
+#centerbody2imagebot2:hover {
+  width: 100%;
+  height: 70%;
+  background-image: url('images/p30.jpg');
+  background-size: cover;
+}
+
+#centerbody3imagebot3 {
+  width: 100%;
+  height: 70%;
+  background-image: url('images/s1.jpg');
+  background-size: cover;
+  display: flex;
+}
+
+#centerbody3imagebot3:hover {
+  width: 100%;
+  height: 70%;
+  background-image: url('images/s2.jpg');
+  background-size: cover;
+}
+
+#centerbody4imagebot4 {
+  width: 100%;
+  height: 70%;
+  background-image: url('images/s3.jpg');
+  background-size: cover;
+  display: flex;
+}
+
+#centerbody4imagebot4:hover {
+  width: 100%;
+  height: 70%;
+  background-image: url('images/s4.jpg');
+  background-size: cover;
+}
+
+.aboutus {
+  width: 100%;
+  height: 400px;
+  background-color: #1082d0;
+}
+
+.about {
+  width: 25%;
+  height: 400px;
+  margin-right: 3%;
+  float: left;
+  color: white;
+}
+
+.about h1 {
+  font-size: 2.5em;
+  font-family: 'Ubuntu';
+  margin-bottom: 0;
+}
+
+#aboutxt {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.myaccount {
+  width: 20%;
+  height: 400px;
+  margin-right: 4%;
+  float: left;
+  color: white;
+}
+
+.myaccount h1 {
+  font-size: 2.5em;
+  font-family: 'Ubuntu';
+  margin-bottom: 0;
+}
+
+.infomation {
+  width: 20%;
+  height: 400px;
+  margin-right: 3%;
+  float: left;
+  color: white;
+}
+
+.contacts {
+  width: 25%;
+  height: 400px;
+  float: left;
+  color: white;
+}
+
+.socials {
+  width: 100%;
+}
+
+#social {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-color: orange;
+  text-align: center;
+  border-radius: 40px;
+  line-height: 40px;
+  font-size: 25px;
+}
+
+.myaccount ul {
+  list-style: none;
+  display: inline-block;
+  margin-left: -40px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.myaccount ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.infomation h1 {
+  font-size: 2.5em;
+  font-family: 'Ubuntu';
+  margin-bottom: 0;
+}
+
+.infomation ul {
+  list-style: none;
+  display: inline-block;
+  margin-left: -40px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.infomation ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.contacts h1 {
+  font-size: 2.5em;
+  font-family: 'Ubuntu';
+  margin-bottom: 0;
+}
+
+.contacts ul {
+  list-style: none;
+  display: inline-block;
+  margin-left: -40px;
+  font-size: 16px;
+  line-height: 55px;
+}
+
+.contacts ul li i {
+  width: 40px;
+  height: 40px;
+  border: 1px solid orange;
+  text-align: center;
+  border-radius: 40px;
+  line-height: 36px;
+}
+
+.contacts ul li span {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+
+.footerleft {
+  width: 50%;
+  height: 100px;
+  float: left;
+}
+
+.footerleft span {
+  display: inline-block;
+  color: white;
+  margin-top: 6%;
+  font-size: 17px;
+}
+
+.footerright {
+  width: 50%;
+  height: 100px;
+  float: left;
+}
+
+.footerrightimage {
+  background-image: url(images/card.png);
+  background-repeat: no-repeat;
+  width: 32%;
+  height: 30%;
+  float: right;
+  margin-top: 5%
 }
