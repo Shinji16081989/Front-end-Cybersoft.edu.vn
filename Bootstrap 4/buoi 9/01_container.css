@@ -1,0 +1,12 @@
+
+
+[class^=col]{
+  background-color: red;
+  height: 50px;
+  border: 1px solid white;
+}
+
+.list-inline-item{
+  font-size: 20px;
+  color: lightblue;
+}

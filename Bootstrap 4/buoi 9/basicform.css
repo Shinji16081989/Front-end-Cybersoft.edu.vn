@@ -1,0 +1,11 @@
+.header{
+  height: 60px;
+  background-color: blue;
+  margin-bottom: 30px;
+}
+
+.header h1{
+  text-align: center;
+  color: white;
+  line-height: 60px;
+}

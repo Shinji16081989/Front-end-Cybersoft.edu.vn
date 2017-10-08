@@ -1,0 +1,243 @@
+.container-fluid {
+  margin: 0;
+  width: 100%;
+  height: 2000px;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#header {
+  width: 90%;
+  height: 60px;
+  border: 1px solid white;
+}
+
+.logo {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+#logotxt {
+  font-size: 60px;
+  font-family: 'Merriweather', serif;
+  margin-bottom: -10px;
+  color: #bf4b4b;
+}
+
+#logotxt1 {
+  display: inline-block;
+  font-size: 13px;
+  color: white;
+  margin-top: 0;
+  margin-left: 85px;
+}
+
+.nav-link {
+  font-size: 20px;
+  margin-right: 45px;
+}
+
+#homebutton {
+  color: red;
+}
+
+#buttoncolor {
+  color: #4ebdde;
+}
+
+#buttoncolorlast {
+  margin-right: 0;
+  color: #4ebdde;
+}
+
+#Preview {
+  color: #4ebdde;
+}
+
+#floatheader {
+  float: left;
+}
+
+.banner {
+  background-image: url('images/banner2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+
+.bannertxt {
+  text-align: right;
+  color: white;
+  margin-right: 60px;
+  padding-top: 260px;
+  display: inline-block;
+  float: right;
+  width: 35%;
+}
+
+.bannertxt h2 {
+  font-size: 70px;
+  font-family: sans-serif;
+}
+
+.bannertxt span {
+  font-size: 15px;
+  font-family: monospace;
+  letter-spacing: 6px;
+  line-height: 50px;
+}
+
+.bannerbot {
+  width: 100%;
+  height: 200px;
+  background-color: #78c7e0;
+}
+
+.aboutourcompany {
+  color: white;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+#welcome {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin-top: 60px;
+}
+
+#welcome h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+#welcome span {
+  color: gray;
+}
+
+#imgwelcome1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('images/a1.jpg');
+  width: 100%;
+  height: 600px;
+}
+
+#imgwelcome2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('images/a2.jpg');
+  width: 100%;
+  height: 600px;
+}
+
+#imgwelcome3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('images/a3.jpg');
+  width: 100%;
+  height: 600px;
+}
+
+.welcometxt {
+  width: 90%;
+  height: 250px;
+  margin-top: 30px;
+}
+
+.welcometxt h2 {
+  color: orange;
+  font-size: 33px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.welcometxt h2 i {
+  color: #53ade2;
+  margin-right: 10px;
+}
+
+.welcometxt span {
+  display: inline-block;
+  margin-left: 45px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+#ourwork h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#imgourwork1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('images/p1.jpg');
+  width: 100%;
+  height: 360px;
+  border: 2px solid white;
+  opacity: 0.8;
+}
+
+#imgourwork2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('images/p6.jpg');
+  width: 100%;
+  height: 360px;
+  border: 2px solid white;
+  opacity: 0.8;
+}
+
+#imgourwork3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('images/p4.jpg');
+  width: 100%;
+  height: 360px;
+  border: 2px solid white;
+  opacity: 0.8;
+}
+
+#imgourwork4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('images/p3.jpg');
+  width: 100%;
+  height: 360px;
+  border: 2px solid white;
+  opacity: 0.8;
+}
+
+#imgourwork5 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('images/p2.jpg');
+  width: 100%;
+  height: 360px;
+  border: 2px solid white;
+  opacity: 0.4;
+}
+
+#imgourwork6 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('images/p5.jpg');
+  width: 100%;
+  height: 360px;
+  border: 2px solid white;
+  opacity: 0.8;
+}
+
+#watermark {
+  font-size: 2em;
+  display: inline-block;
+  color: white;
+  margin-top: 25%;
+  margin-left: 5%;
+}

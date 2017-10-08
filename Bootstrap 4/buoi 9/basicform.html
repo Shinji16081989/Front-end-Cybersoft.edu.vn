@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>basicform</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="basicform.css">
+  </head>
+  <body>
+  <div class="container">
+    <form class="basicform" action="index.html" method="post">
+        <div class="header">
+          <h1> Submit form </h1>
+        </div>
+        <fieldset class="form-group">
+          <label for="first_name">First Name</label>
+          <input type="text" class="form-control" name="txt-first-name" value="">
+        </fieldset>
+        <fieldset class="form-group">
+          <label for="last_name"> Last Name</label>
+          <input type="text" class="form-control" name="" value="">
+        </fieldset>
+        <button type="submit" class="btn btn-danger btn-lg" name="button">Submit</button>
+        <div class="card">
+          <div class="card-header" role="tab" id="questionOne">
+            <h5>
+            <a data-toggle="collapse" data-parent="#faq" href="#answerOne" aria-expanded="true" aria-controls="answerOne">
+            ELECTRONIC [230]
+            </a>
+            </h5>
+          </div>
+          <div id="answerOne" class="collapse" role="tabcard" aria-labelledby="questionOne">
+            <div class="card-body">
+              > Cameras (100)
+            </div>
+            <div class="card-body">
+              > Computer, Table & laptop (30)
+            </div>
+            <div class="card-body">
+              > Mobile Phone (80)
+            </div>
+            <div class="card-body">
+              > Sound & Vision (15)
+            </div>
+          </div>
+        </div>
+    </form>
+  </div>
+  </body>
+</html>
