@@ -40,6 +40,10 @@
   margin-right: 45px;
 }
 
+a:hover {
+  color: green !important;
+}
+
 #homebutton {
   color: red;
 }
@@ -240,4 +244,12 @@
   color: white;
   margin-top: 25%;
   margin-left: 5%;
+}
+
+#Succeedwithus h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
