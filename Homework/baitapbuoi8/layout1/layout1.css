@@ -10,9 +10,8 @@
 }
 
 #header {
-  width: 90%;
-  height: 60px;
-  border: 1px solid white;
+  width: 100%;
+  height: 70px;
 }
 
 .logo {
@@ -23,7 +22,7 @@
 #logotxt {
   font-size: 60px;
   font-family: 'Merriweather', serif;
-  margin-bottom: -10px;
+  margin-bottom: -5px;
   color: #bf4b4b;
 }
 
@@ -240,7 +239,7 @@ a:hover {
 
 #watermark {
   font-size: 2em;
-  display: inline-block;
+  display: block;
   color: white;
   margin-top: 25%;
   margin-left: 5%;
@@ -252,4 +251,131 @@ a:hover {
   text-align: center;
   margin-top: 70px;
   margin-bottom: 70px;
+}
+
+#imgsucceedwithus {
+  background-image: url('images/index-serives.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+.ourservices {
+  width: 100%;
+  height: 265px;
+  margin-bottom: 80px;
+}
+
+.ourservices h2 {
+  font-family: sans-serif;
+  font-size: 2.5rem;
+}
+
+.ourservices span {
+  color: gray;
+  font-size: 18px;
+}
+
+.thinkwedo {
+  width: 100%;
+  height: 265px;
+}
+
+.thinkwedo h2 {
+  font-family: sans-serif;
+  font-size: 2.5rem;
+}
+
+#thing {
+  list-style: none;
+  color: gray;
+  font-size: 18px;
+}
+
+#allthings {
+  display: inline-block;
+  margin-left: -35px;
+}
+
+.thinkwedo ul li i {
+  color: #53ade2;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#allorderthing {
+  color: #ecdfdf;
+  font-size: 50px;
+  line-height: 200%;
+}
+
+#orderthing {
+  list-style-type: none;
+}
+
+#numberorder {
+  color: #53ade2;
+}
+
+.orderlist {
+  width: 90%;
+  height: 90%;
+  margin: 5% auto;
+}
+
+#footer {
+  background-color: #423e3e;
+  width: 100%;
+  height: 300px;
+  margin-top: 80px;
+}
+
+#orderthing1 {
+  list-style-type: none;
+  margin-left: -40px;
+  color: gray;
+  font-size: 20px;
+}
+
+#orderthing1 a {
+  color: gray;
+}
+
+#footertitle {
+  color: white;
+  font-family: sans-serif;
+  font-size: 2rem;
+  margin-top: 60px;
+}
+
+#footertxt {
+  list-style-type: none;
+  color: gray;
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#footertxt1 {
+  list-style-type: none;
+  color: gray;
+  font-size: 15px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 2%;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-size: 32px;
+  background-image: url('images/to-top1.png');
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
 }
