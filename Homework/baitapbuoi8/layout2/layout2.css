@@ -1,0 +1,103 @@
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  display: inline-flex;
+}
+
+.container-fluid {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.headerright {
+  width: 50%;
+  height: 100px;
+  float: left;
+}
+
+.headerleft{
+  width: 50%;
+  height: 100px;
+  float: left;
+
+}
+
+.logo{
+  width: 60%;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.logo h1 a {
+  color: #2f2f2f;
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: 900;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+
+.logo h1 a span {
+  color: #82b62d;
+  font-size: .5em;
+  text-decoration: none;
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+.headerrighttop{
+  width: 100%;
+  height: 40px;
+}
+
+.headerrighttop ul{
+  list-style: none;
+  display: block;
+  float: right;
+  margin-top: 10px;
+}
+
+.headerrighttop ul li{
+  display: inline-block;
+  margin-right: 20px;
+  color: gray;
+}
+
+.headerrighttop ul li a{
+  color: gray;
+}
+
+.headerrightbot{
+  width: 100%;
+  height: 60px;
+  float: left;
+}
+
+.navbar-nav{
+  width: 110%;
+}
+
+.nav-link {
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#homebutton{
+  color: green;
+}
+
+.clearfix{
+  display: block;
+}
+
+#buttoncolor{
+}
+
+#buttoncolorlast{
+}
