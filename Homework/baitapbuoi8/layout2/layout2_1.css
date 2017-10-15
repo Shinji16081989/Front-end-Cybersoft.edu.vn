@@ -92,6 +92,7 @@
 #headerrightbotright a {
   display: inline-block;
   margin-left: 10px;
+  color: black;
 }
 
 .mainbanner {
@@ -454,4 +455,19 @@
 
 .footer span a {
   color: green;
+}
+
+#arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 2%;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-size: 32px;
+  background-image: url('images/arrow.png');
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
 }
