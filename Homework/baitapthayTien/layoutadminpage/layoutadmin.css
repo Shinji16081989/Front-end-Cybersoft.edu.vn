@@ -1,0 +1,15 @@
+#pieChart{
+  background-image: url('img/1.jpg');
+  background-size: contain;
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+#lineChart{
+  background-image: url('img/2.jpg');
+  background-size: contain;
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+}
