@@ -1,0 +1,22 @@
+$bg_color:#123456;
+$font_color:white;
+%colorchar{
+  color: $font_color;
+}
+.header{
+  background-color: $bg_color;
+  h1, p {
+    @extend %colorchar;
+  }
+  img{
+    width: 30%;
+  }
+  &:hover{
+    background-color: pink;
+    color: black;
+  }
+  font: {
+    family: Arial;
+    style: Italic;
+  }
+}

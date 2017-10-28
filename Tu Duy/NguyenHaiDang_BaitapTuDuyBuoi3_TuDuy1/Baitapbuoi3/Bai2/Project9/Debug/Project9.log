@@ -1,0 +1,3 @@
+﻿  baitap2.cpp
+c:\users\dangnguyen\source\repos\project9\project9\baitap2.cpp(30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Project9.vcxproj -> C:\Users\DangNguyen\source\repos\Project9\Debug\Project9.exe

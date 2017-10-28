@@ -1,0 +1,198 @@
+.header {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border: 0;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1100;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+}
+
+#navigation {
+  width: 100%;
+  background-color: white;
+  text-align: right;
+}
+
+#logo {
+  width: 75%;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  line-height: 50px;
+  letter-spacing: 5px;
+}
+
+#coverphoto {
+  width: 100%;
+  height: 800px;
+  background: url('img/hamburger.jpg') no-repeat 0px 0px;
+  background-size: cover;
+}
+
+#nav-content {
+  text-align: right;
+}
+
+#allnavitem {
+  margin-left: 60%;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+#navitem {
+  padding-left: 10%;
+}
+
+#coverphoto h1 {
+  display: inline-block;
+  padding-left: 1%;
+  padding-top: 35%;
+  font-family: 'Slabo 27px', serif;
+  font-size: 70px;
+}
+
+section {
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+  margin-top: 10%;
+}
+
+.sectionimg1 {
+  width: 95%;
+  background: url('img/tablesetting2.jpg') no-repeat 90%;
+  background-size: cover;
+  height: 700px;
+}
+
+#about {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#abouttitle {
+  font-family: 'Slabo 27px', serif;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+#about h4 {
+  font-family: 'Slabo 27px', serif;
+  display: block;
+  letter-spacing: 10px;
+  padding-bottom: 20px;
+}
+
+#about p {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: justify;
+  font-weight: 600;
+}
+
+#gachngang {
+  border: 1px solid lightgray;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.sectionimg2 {
+  width: 95%;
+  background: url('img/tablesetting.jpg') no-repeat 100% -175px;
+  background-size: cover;
+  height: 700px;
+  float: right;
+}
+
+#menutitle {
+  font-family: 'Slabo 27px', serif;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#menu h4 {
+  font-family: 'Slabo 27px', serif;
+  display: block;
+  letter-spacing: 5px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+#contact h1 {
+  font-family: 'Slabo 27px', serif;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+#contact p {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+#contact h4 {
+  font-family: 'Slabo 27px', serif;
+  display: block;
+  padding-bottom: 10px;
+  font-weight: 600;
+  color: #607d8b;
+}
+
+#Name {
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 15px
+}
+
+#Howmany {
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 15px
+}
+
+#Time {
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 15px
+}
+
+#Message {
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 15px
+}
+
+#button {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: gray;
+  margin-top: 5%;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  line-height: 60px;
+  font-size: 30px;
+}

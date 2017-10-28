@@ -1,0 +1,258 @@
+.header {
+  width: 100%;
+  height: 70px;
+  ;
+  background-color: white;
+  border: 0;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1100;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+}
+
+#navigation {
+  width: 100%;
+  background-color: white;
+  text-align: right;
+}
+
+#logo {
+  width: 20%;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  line-height: 50px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+#backgroundnavtxt a:hover {
+  background-color: lightgray;
+  margin: 5px;
+}
+
+#coverphoto {
+  width: 100%;
+  height: 800px;
+  background: url('img/hamburger.jpg') no-repeat 0px 0px;
+  background-size: cover;
+}
+
+#nav-content {
+  text-align: right;
+}
+
+#allnavitem {
+  margin-left: 35%;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+#navitem {
+  padding-left: 10%;
+  display: inline;
+}
+
+#navitem a:hover {
+  background-color: lightgray;
+  margin: 1px;
+}
+
+#coverphoto {
+  width: 100%;
+  height: 800px;
+  background: url('hinhanh/architect.jpg') no-repeat 0px 0px;
+  background-size: cover;
+  text-align: center;
+  opacity: 0.9;
+}
+
+#coverphoto h1 {
+  display: inline-block;
+  padding-top: 25%;
+  font-size: 70px;
+  color: white;
+}
+
+#coverphoto h1 b {
+  display: inline-flex;
+  background-color: black;
+  opacity: 0.8;
+  padding: 5px 10px;
+}
+
+#gachngang {
+  border: 1px solid lightgray;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#projects {
+  padding-top: 5%;
+}
+
+.title {
+  display: block;
+}
+
+#project1 {
+  width: 100%;
+  height: 300px;
+  background: url('hinhanh/house5.jpg') no-repeat 0px 0px;
+  margin: 0;
+}
+
+#project1 span {
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  display: inline-block;
+}
+
+#project2 {
+  width: 100%;
+  height: 300px;
+  background: url('hinhanh/house2.jpg') no-repeat 0px 0px;
+  margin: 0;
+}
+
+#project2 span {
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  display: inline-block;
+}
+
+#project3 {
+  width: 100%;
+  height: 300px;
+  background: url('hinhanh/house3.jpg') no-repeat 0px 0px;
+  margin: 0;
+}
+
+#project3 span {
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  display: inline-block;
+}
+
+#project4 {
+  width: 100%;
+  height: 300px;
+  background: url('hinhanh/house4.jpg') no-repeat 0px 0px;
+  margin: 0;
+}
+
+#project4 span {
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  display: inline-block;
+}
+
+#about {
+  padding-top: 5%;
+}
+
+#about p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.john {
+  width: 100%;
+  height: 290px;
+  background: url('hinhanh/team2.jpg') no-repeat 0px 0px;
+  background-size: contain;
+  margin-bottom: 5%;
+}
+
+.jane {
+  width: 100%;
+  height: 290px;
+  background: url('hinhanh/team1.jpg') no-repeat 0px 0px;
+  background-size: contain;
+  margin-bottom: 5%;
+}
+
+.mike {
+  width: 100%;
+  height: 290px;
+  background: url('hinhanh/team3.jpg') no-repeat 0px 0px;
+  background-size: contain;
+  margin-bottom: 5%;
+}
+
+.dan {
+  width: 100%;
+  height: 290px;
+  background: url('hinhanh/team4.jpg') no-repeat 0px 0px;
+  background-size: contain;
+  margin-bottom: 5%;
+}
+
+#abouttitle {
+  color: lightgray;
+}
+
+#abouttxt {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#contactbutton {
+  width: 100%;
+  border: none;
+  margin-top: 5%;
+  font-weight: 500;
+}
+
+#contactbutton:hover{
+  background-color: gray;
+  cursor: pointer;
+}
+
+#contact{
+  padding-top: 5%;
+}
+
+#contactform{
+  width: 100%;
+  border: white;
+  font-size: 20px;
+}
+
+#contact p{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#gachngangcontact{
+  border: 1px solid lightgray;
+}
+
+#contactformbutton{
+  font-size: 20px;
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+
+footer p{
+  line-height: 60px;
+  font-size: 30px;
+}

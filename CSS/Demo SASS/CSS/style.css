@@ -1,0 +1,14 @@
+.header h1, .header p {
+  color: white; }
+
+.header {
+  background-color: #123456;
+  font-family: Arial;
+  font-style: Italic; }
+  .header img {
+    width: 30%; }
+  .header:hover {
+    background-color: pink;
+    color: black; }
+
+/*# sourceMappingURL=style.css.map */
