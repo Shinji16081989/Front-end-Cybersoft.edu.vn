@@ -1,0 +1,62 @@
+header {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  color: white;
+  text-align: right;
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+
+.iconinlogin {
+  color: white;
+  font-size: 2rem;
+}
+
+.iconinlogin a {
+  color: white;
+  padding: 0px 5px;
+}
+
+#mydashboard {
+  border: 1px solid white;
+}
+
+#dashboarditem {
+  border: 0.3px solid white;
+}
+
+#dashboarditemhome{
+  border: 0.3px solid white;
+}
+
+.active a:hover{
+  background-color: #fff !important;
+  color: black !important;
+}
+
+.message {
+  width: 90%;
+  height: 100px;
+  background-color: orange;
+  text-align: center;
+}
+
+.message i{
+  font-size: 5rem;
+}
+
+.message i p{
+  font-size: 2em !important;
+  color: black !important ;
+}
+
+#circle {
+  background-color: red;
+  color: white;
+  border-radius: 1em;
+  font-size: 1.4rem;
+}
