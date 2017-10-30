@@ -1,0 +1,3 @@
+@for $gridtest from 1 through 12{
+  .col-#{$gridtest} { width: 100%/$gridtest;}
+}

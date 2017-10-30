@@ -1,0 +1,52 @@
+.animation{
+  width: 800px;
+  height: 350px;
+  background-color: red;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 4s;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes example{
+  0% {background-color: red; top:0px;}
+  25% {background-image: url('31872.jpg'); top:100px;}
+  50% {background-image: url('final-fantasy-ix-art.jpg'); top:200px;}
+  75% {background-image: url('cover_zing_asuna_yuuki_by_lyzomishijou04-d7outko.jpg'); top:300px;}
+}
+
+@keyframes example{
+  0% {background-color: red; top:0px;}
+  25% {background-image: url('31872.jpg'); top:100px;}
+  50% {background-image: url('final-fantasy-ix-art.jpg'); top:200px;}
+  75% {background-image: url('cover_zing_asuna_yuuki_by_lyzomishijou04-d7outko.jpg'); top:300px;}
+}
+
+.animation1{
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  -webkit-animation-name: example1;
+  -webkit-animation-duration: 5s;
+  animation-name: example1;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+@-webkit-keyframes example1{
+  0% {background-color: red; left: 0px;}
+  25% {background-color: green; left:200px;}
+  50% {background-color: blue; left:400px;}
+  75% {background-color: yellow; left:600px;}
+  100% {background-color: pink; left:0px;}
+}
+
+@keyframes example1{
+  0% {background-color: red; left: 0px;}
+  25% {background-color: green; left:200px;}
+  50% {background-color: blue; left:400px;}
+  75% {background-color: yellow; left:600px;}
+  100% {background-color: pink; left:0px;}
+}

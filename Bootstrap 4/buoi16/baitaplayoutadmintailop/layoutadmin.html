@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>layout admin</title>
+  <link rel="stylesheet" href="layoutadmin.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="layout3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Our Custom CSS -->
+  <link rel="stylesheet" href="style5.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid">
+      <span>CyberSoft</span>
+    </div>
+  </header>
+  <div class="wrapper">
+    <!-- Sidebar Holder -->
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="img/thaySong.jpg" alt="person" class="img-fluid rounded-circle">
+          </div>
+          <div class="col-md-8">
+            <h5>Welcome to myclass.vn!</h5>
+            <div class="iconinlogin">
+              <a href="#">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-address-book-o" aria-hidden="true"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-cog" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <ul class="list-unstyled components">
+        <p id="mydashboard">My Dashboard</p>
+        <li class="active">
+          <a id="dashboarditemhome" href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
+          <ul class="collapse list-unstyled" id="homeSubmenu">
+            <li><a href="#">Home 1</a></li>
+            <li><a href="#">Home 2</a></li>
+            <li><a href="#">Home 3</a></li>
+          </ul>
+        </li>
+        <li>
+          <a id="dashboarditem" href="#">About</a>
+          <a id="dashboarditem" href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
+          <ul class="collapse list-unstyled" id="pageSubmenu">
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+          </ul>
+        </li>
+        <li>
+          <a id="dashboarditem" href="#">Portfolio</a>
+        </li>
+        <li>
+          <a id="dashboarditem" href="#">Contact</a>
+        </li>
+      </ul>
+
+      <ul class="list-unstyled CTAs">
+        <li><a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a></li>
+        <li><a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a></li>
+      </ul>
+    </nav>
+
+    <!-- Page Content Holder -->
+    <div id="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="message">
+              <i class="fa fa-comments-o" aria-hidden="true"></i>
+              <p> Notification <span id="circle">58</span> </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="message">
+              <i class="fa fa-comments-o" aria-hidden="true"></i>
+              <p> Notification <span id="circle">58</span> </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="message">
+              <i class="fa fa-comments-o" aria-hidden="true"></i>
+              <p> Notification <span id="circle">58</span> </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="message">
+              <i class="fa fa-comments-o" aria-hidden="true"></i>
+              <p> Notification <span id="circle">58</span> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="line"></div>
+
+      <h2>Lorem Ipsum Dolor</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <div class="line"></div>
+
+      <h2>Lorem Ipsum Dolor</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <div class="line"></div>
+
+      <h3>Lorem Ipsum Dolor</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+</body>
+
+</html>

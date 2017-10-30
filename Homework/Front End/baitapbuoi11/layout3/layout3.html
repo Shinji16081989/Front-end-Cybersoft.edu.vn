@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>layout3</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="layout3.css">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8">
+            <a class="navbar-brand" href="#coverphoto" id="logo">Gourmet au Catering</a>
+          </div>
+          <div class="col-md-4">
+            <nav class="navbar navbar-expand-sm navbar-light bg-faded" id="navigation" data-spy="affix">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- Links -->
+              <div class="collapse navbar-collapse" id="nav-content">
+                <ul class="navbar-nav" id="allnavitem">
+                  <li class="nav-item" id="navitem">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item" id="navitem">
+                    <a class="nav-link" href="#menu">Menu</a>
+                  </li>
+                  <li class="nav-item" id="navitem">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div id="coverphoto">
+      <h1>Le Catering</h1>
+  </div>
+  <section>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="sectionimg1"></div>
+      </div>
+      <div class="col-md-6">
+        <div id="about">
+          <h1 id="abouttitle">About Catering</h1>
+          <h4> Trandition since 1889</h4>
+          <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</p>
+          <br>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+    <hr id="gachngang">
+    <div class="row">
+      <div class="col-md-6">
+        <div id="menu">
+          <h1 id="menutitle">Our Menu</h1>
+          <h4>Bread Basket</h4>
+          <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+          <br>
+          <br>
+          <h4>Honey Almond Granola with Fruits</h4>
+          <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+          <br>
+          <br>
+          <h4>Belgian Waffle</h4>
+          <p>Vanilla Flavored batter with malted flour 7.50</p>
+          <br>
+          <br>
+          <h4>Scrambled eggs</h4>
+          <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+          <br>
+          <br>
+          <h4>Blueberry Pancakes</h4>
+          <p>With syrup, butter and lots of berries 8.50</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="sectionimg2"></div>
+      </div>
+    </div>
+    <hr id="gachngang">
+    <div id="contact">
+      <h1>Contact</h1>
+      <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+      <h4>Catering Service, 42nd Living St, 43043 New York, NY</h4>
+      <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+      <form id="submitform">
+        <fieldset class="form-group">
+          <input type="name" class="form-control" id="Name" placeholder="Name">
+        </fieldset>
+        <fieldset class="form-group">
+          <input type="text" class="form-control" id="Howmany" placeholder="How many people">
+        </fieldset>
+        <fieldset class="form-group">
+          <input type="datetime-local" class="form-control" id="Time" placeholder="Date and time" required="" name="date" value="2017-11-16T20:00">
+        </fieldset>
+        <fieldset class="form-group">
+          <input type="text" class="form-control" id="Message" placeholder="Message \ Special requirements">
+        </fieldset>
+        <button type="submit" class="btn" id="button">SEND MESSAGE</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p> Design by Haidang <a href="#">haidang.com</a></p>
+  </footer>
+</body>
+</html>

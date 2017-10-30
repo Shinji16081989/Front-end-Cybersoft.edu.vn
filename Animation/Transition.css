@@ -1,0 +1,25 @@
+.transition {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  -webkit-transition: width 4s, height 8s, -webkit-transform 8s;
+  -o-transition: width 4s, height 8s, -o-transform 8s;
+  transition: width 4s, height 8s, transform 8s;
+}
+
+.transition:hover {
+  width: 200px;
+  background-color: green;
+  transform: rotate(360deg);
+}
+
+.transition:active {
+  width: 1000px;
+  background-image: url('31872.jpg');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotate(360deg);
+  box-shadow: 20px 30px 40px 90px;
+  border: 2px solid lightblue;
+}

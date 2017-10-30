@@ -1,0 +1,473 @@
+.header {
+  width: 100%;
+  height: 100px;
+  display: inline-flex;
+}
+
+.logo {
+  width: 100%;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.logo h1 a {
+  color: #2f2f2f;
+  font-size: 1em;
+  text-decoration: none;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+
+.logo h1 a span {
+  color: #82b62d;
+  font-size: .5em;
+  text-decoration: none;
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+.headerrighttop {
+  width: 100%;
+  height: 40px;
+  line-height: 45px;
+}
+
+#contactus {
+  display: inline-block;
+  float: right;
+}
+
+#contactus a {
+  color: gray;
+  margin-left: 20px;
+}
+
+#contacustxt {
+  color: gray;
+}
+
+#nav-content {
+  margin-left: -35px;
+}
+
+.headerrightbot {
+  width: 100%;
+  height: 60px;
+  float: right;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: -15px;
+}
+
+#headerrightbotleft {
+  height: 60px;
+  float: right;
+}
+
+#homebutton {
+  color: green;
+  margin-right: 10px;
+}
+
+#buttoncolor {
+  margin-right: 10px;
+}
+
+#Preview {
+  margin-right: 10px;
+  display: inline-flex;
+}
+
+#headerrightbotright {
+  text-align-last: right;
+  font-size: 20px;
+  display: block;
+  line-height: 50px;
+}
+
+#headerrightbotright a {
+  display: inline-block;
+  margin-left: 10px;
+  color: black;
+}
+
+.mainbanner {
+  background-image: url('images/1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1100px;
+}
+
+#bannertxt {
+  text-align: center;
+  color: white;
+  margin-top: 25%;
+}
+
+#bannertxt #varius {
+  font-weight: bold;
+  letter-spacing: 8px;
+  font-size: 30px;
+}
+
+#bannertxt h3 {
+  color: #FFFFFF;
+  font-size: 5em;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+}
+
+#bannerareatxt {
+  font-size: 16px;
+}
+
+#buttonmore {
+  padding: 6px 40px;
+  background-color: #2eb52e;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+#circle {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #2eb52e;
+  background-color: #2eb52e;
+  border-radius: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10%;
+}
+
+#circle1 {
+  width: 15px;
+  height: 15px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10%;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.welcome h2 {
+  color: #212121;
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 7px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+
+.welcometoptxt {
+  width: 90%;
+  height: 500px;
+  margin-left: -15px;
+}
+
+#welcomecontenttitle {
+  color: #000000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 4px;
+  margin: 0;
+}
+
+#welcomecontent {
+  color: gray;
+  font-size: 18px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+#welcometopimg {
+  background-image: url('images/2.jpg');
+  width: 95%;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#welcometopimg1 {
+  background-image: url(images/3.jpg);
+  width: 95%;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0;
+}
+
+#welcomecontent1 {
+  color: gray;
+  font-size: 18px;
+  margin-top: 20px;
+  display: inline-block;
+  float: right;
+}
+
+.welcometoptxt1 {
+  width: 90%;
+  height: 500px;
+  float: right;
+}
+
+.services {
+  background: #f0f5f8;
+  width: 100%;
+  height: 600px;
+}
+
+.services h2 {
+  color: #212121;
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 7px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+#servicesicon {
+  text-align: center;
+}
+
+#servicesicon i {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  font-size: 35px;
+  line-height: 50px;
+  margin-bottom: 20px;
+  color: #2eb52e;
+}
+
+#servicesicon h3 {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+#servicesicon span {
+  color: #999999;
+}
+
+.News h2 {
+  color: #212121;
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 7px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.Newsimg {
+  background-image: url('images/4.jpg');
+  width: 95%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.Newscontent {
+  display: inline-block;
+}
+
+.admin {
+  float: left;
+}
+
+.admin a {
+  color: black;
+  font-size: 1em;
+  margin: 0;
+  text-decoration: none;
+}
+
+.admin a:hover {
+  color: green;
+}
+
+.time {
+  float: left;
+  margin-left: 10%;
+}
+
+.Newstxt {
+  color: #212121;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 0;
+  text-decoration: none;
+  line-height: 1.2em;
+}
+
+.Newstxt a {
+  color: black;
+  margin-left: 20px;
+}
+
+.Newstxt a span {
+  display: block;
+  margin-left: 20px;
+}
+
+.Jointheclub {
+  width: 100%;
+  height: 280px;
+  background-image: url(images/5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+
+#jointheclubtxt {
+  color: white;
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  display: inline-block;
+  text-align: center;
+}
+
+#inputtxt {
+  font-size: 20px !important;
+  float: left;
+  margin-top: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 48%;
+  padding-left: 2%;
+}
+
+#buttonicon {
+  float: left;
+  margin-top: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #2eb52e;
+  border: none;
+  color: white;
+  font-size: 23px;
+  text-align: center;
+  margin-left: 1%;
+}
+
+#title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#Concerttxt {
+  color: #999999;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+#Concerttxt a {
+  color: green;
+}
+
+#Concerttxt i {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#Twitterpost span {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#Concerttxt1 {
+  color: #999999;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+#Concerttxt1 a {
+  color: black;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+#Concerttxt1 a:hover {
+  color: green;
+  ;
+}
+
+#navgationconcert {
+  list-style: none;
+  display: inline-block;
+  margin-left: -30px;
+}
+
+#navgationconcert li a {
+  color: black;
+}
+
+#navgationconcert li a:hover {
+  color: green;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer span {
+  color: white;
+  font-weight: 500;
+  line-height: 80px;
+  font-size: 20px;
+}
+
+.footer span a {
+  color: green;
+}
+
+#arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 2%;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-size: 32px;
+  background-image: url('images/arrow.png');
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+}

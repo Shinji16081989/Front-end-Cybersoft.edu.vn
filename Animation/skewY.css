@@ -1,0 +1,11 @@
+.skewY{
+  width: 300px;
+  height: 200px;
+  background-color: pink;
+  border: 1px solid black;
+  -webkit-transform: skewY(55deg);
+  -moz-transform: skewY(55deg);
+  -ms-transform: skewY(55deg);
+  -o-transform: skewY(55deg);
+  transform: skewY(55deg);
+}
