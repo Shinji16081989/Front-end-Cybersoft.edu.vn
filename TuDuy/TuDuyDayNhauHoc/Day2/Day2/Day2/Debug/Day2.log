@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\dang\downloads\front-end-cybersoft.edu.vn\tuduy\tuduydaynhauhoc\day2\day2\day2\source.cpp(13): warning C4804: '<': unsafe use of type 'bool' in operation
+c:\users\dang\downloads\front-end-cybersoft.edu.vn\tuduy\tuduydaynhauhoc\day2\day2\day2\source.cpp(16): warning C4804: '<': unsafe use of type 'bool' in operation
+  Day2.vcxproj -> C:\Users\Dang\Downloads\Front-end-Cybersoft.edu.vn\TuDuy\TuDuyDayNhauHoc\Day2\Day2\Debug\Day2.exe
