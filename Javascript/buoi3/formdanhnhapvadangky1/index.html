@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>form dang nhap</title>
+  <link rel="stylesheet" href="css/formdangnhap.css">
+  <script type="text/javascript" src="js/formdangnhap.js">
+  </script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#home" role="tab">SignIn</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#profile" role="tab">SignUp</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div class="tab-pane active" role="tabpanel">
+      <form id="SignInTxt">
+        <h1>Sign In Form</h1>
+        <input type="text" placeholder="Username" id="tenDangNhap">
+        <br>
+        <br>
+        <input type="password" placeholder="Password" id="matKhau">
+        <br>
+        <br>
+        <button type="submit" name="button" onclick="return nhapThongTin()">Dang Nhap</button>
+      </form>
+    </div>
+    <div class="tab-pane" id="SignUptxt" role="tabpanel">
+      <h1>Sign Up Form</h1>
+      <input type="text" placeholder="Ten Dang Nhap">
+      <br>
+      <br>
+      <input type="text" placeholder="Mat Khau">
+      <br>
+      <br>
+      <span>Ban co phai la sinh vien</span>
+      <input type="checkbox" name="Sinh Vien" value="" id="laSinhVien">Sinh Vien
+      <input type="checkbox" name="Sinh Vien" value="" id="Di Lam">Nguoi Di Lam
+      <br>
+      <br>
+      <button type="button" name="button" onclick="checkSinhVien()"> Dang Ky</button>
+    </div>
+  </div>
+</body>
+
+</html>

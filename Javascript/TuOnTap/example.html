@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        var records = [{
+                name: "Tri Dep Trai",
+                age: 23,
+                country: "en"
+            },
+            {
+                name: "Huy Xinh Gai",
+                age: 22,
+                country: "vn"
+            }];
+
+        window.onload = function() {
+            render(records);
+        }
+
+        function render(records){
+            // Vẽ table với tham số records trong div có ID là root
+            var content = '';
+            content += '<table style="width: 600px; margin: 0 auto;" border="1px">';
+            content += '<thead>';
+            content += '<tr>';
+            content += '<th>Name</th>';
+            content += '<th>Age</th>';
+            content += '<th>Country</th>';
+            content += '</tr>';
+            content += '</thead>';
+            for(var i = 0; i < records.length; i++){
+                content += '<tr>';
+                content += '<td>'+ records[i].name + '</td>'
+                content += '<td>'+ records[i].age + '</td>'
+                content += '<td>'+ records[i].country + '</td>'
+                content += '</tr>';
+            }
+            content += '</table>';
+            document.getElementById('root').innerHTML = content;
+        }
+
+        function add_new(){
+            /*
+             * Bắt lỗi tuỳ ý và xuất ra màn hình
+             */
+
+            // Lấy giá trị của người dùng nhập vào
+            var name = document.getElementById('name').value;
+            var age = document.getElementById('age').value;
+            var country = document.getElementById('country').value;
+
+            // Thêm phần tử vào mảng records
+            records.push({
+                name: name,
+                age: age,
+                country: country
+            });
+
+            // Gọi hàm render
+            render(records);
+
+            // Reset form
+            document.getElementById('name').value = '';
+            document.getElementById('age').value = '';
+            document.getElementById('country').value = '';
+        }
+
+        function random(){
+            /*
+             * Bắt lỗi nhập khi không phải là số hoặc số bé hơn 0 và xuất thông báo
+             * Cho người customize value khi random
+             */
+
+            // lấy input random
+            var number = document.getElementById('random').value;
+
+            // lặp từ 1 tới number
+            for(var i = 0; i < number; i++){
+                // thêm nó vào mảng
+                records.push({
+                    name: 'name-' + (i + 1),
+                    age: 'age-' + (i + 1),
+                    country: 'country-' + (i + 1)
+                });
+            }
+
+            // gọi lại hàm render với dữ liệu đã thêm ở trên
+            render(records);
+
+            // reset input
+            document.getElementById('random').value = '';
+        }
+
+        // Xoá phẩn tử :D
+    </script>
+  </head>
+  <body>
+    <div id="root">
+
+    </div>
+    <form>
+        Enter name: <input type="text" name="name" id="name">
+        <br>
+        Enter age: <input type="text" name="age" id="age">
+        <br>
+        Enter country: <input type="text" name="country" id="country">
+        <input type="button" value="Add" onclick="add_new();return false;">
+    </form>
+
+    <div>
+        <p>*************</p>
+        <p>*************</p>
+        Enter name: <input type="text" name="name" id="name">
+        <br>
+        Enter age: <input type="text" name="age" id="age">
+        <br>
+        Enter country: <input type="text" name="country" id="country">
+        <br>
+        Random <input type="text" name="random" id="random">
+        <input type="button" value="Random" onclick="random();return false;">
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>

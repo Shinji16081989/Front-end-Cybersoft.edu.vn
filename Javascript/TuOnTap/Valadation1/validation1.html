@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>validation1</title>
+  <script type="text/javascript" src="js/validation1.js">
+  </script>
+</head>
+
+<body>
+  <form name="form1">
+    Name: <input type="text" name="username" id="username1" />
+    <br> DiaChi: <input type="text" name="diachi" id="diachi">
+    <br>
+    <br> SoDienThoai: <input type="text" name="sodienthoai" id="Mobile">
+    <br> Email: <input type="text" name="email" id="email">
+    <br>
+    <input type="submit" onclick="return kiemTraNhap()" value="Kiem Tra Nhap">
+    <input type="button" onclick="return KiemtraTatCaKytu('diachi')" value="Kiem Tra Nhap Ky Tu Hay Chu">
+    <input type="button" onclick="return KiemtraTatCalaSo('Mobile')" value="Kiem Tra Nhap la So">
+    <input type="button" onclick="return KiemtraEmail('email')" value="Kiem Tra Nhap la So">
+    <input type="button" onclick="return KiemtraDoDai('username1', 8, 12)" value="Kiem Tra Do dai Da Nhap">
+  </form>
+  <p id="thongbao"></p>
+  <p id="thongbao1"></p>
+  <p id="thongbao2"></p>
+  <p id="thongbao3"></p>
+  <p id="thongbao4"></p>
+</body>
+
+</html>

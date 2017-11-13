@@ -1,0 +1,10 @@
+#formnhap{
+  margin: 1em 35em;
+  display: inline-flex;
+}
+
+#SignInTxt{
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}

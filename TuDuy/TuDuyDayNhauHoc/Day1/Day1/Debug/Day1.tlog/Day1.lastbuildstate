@@ -1,7 +1,2 @@
-<<<<<<< HEAD
 #TargetFrameworkVersion=v4.0:PlatformToolSet=v141:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0.16299.0
 Debug|Win32|C:\Users\Dang\Downloads\Front-end-Cybersoft.edu.vn\Tư Duy\TuDuyDayNhauHoc\Day1\|
-=======
-#TargetFrameworkVersion=v4.0:PlatformToolSet=v141:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0.16299.0
-Debug|Win32|C:\Users\Dang\Downloads\Front-end-Cybersoft.edu.vn\Tư Duy\TuDuyDayNhauHoc\Day1\|
->>>>>>> 0ef061e7fac2fe8aa74cc84154c66caf9f7d30f4

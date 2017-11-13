@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Js validation</title>
+    <script type="text/javascript" src="js/jsvalidation.js">  </script>
+    <link rel="stylesheet" href="css/jsvalidation.css">
+  </head>
+  <body>
+    <p>Registration Form</p>
+    <span>Use tab keys to move from one input field to the next</span>
+    <form onsubmit="return checkInput();">
+      <br>
+      <br>
+      <div class="group">
+       <input type="text" required id="userID">
+       <span class="highlight"></span>
+       <span class="bar"></span>
+       <label>User ID</label>
+      </div>
+      <div class="group">
+       <input type="text" required id="passWord">
+       <span class="highlight"></span>
+       <span class="bar"></span>
+       <label>Password</label>
+      </div>
+      <div class="group">
+       <input type="text" required id="yourName">
+       <span class="highlight"></span>
+       <span class="bar"></span>
+       <label>Name</label>
+      </div>
+      <div class="group">
+       <input type="text" required id="Address">
+       <span class="highlight"></span>
+       <span class="bar"></span>
+       <label>Address</label>
+      </div>
+      <span>Country</span>
+      <select class="" name="" id="Country">
+        <option value="">USA</option>
+        <option value="">England</option>
+        <option value="">Vietnam</option>
+      </select>
+      <div class="group">
+       <input type="text" required id="zipCode">
+       <span class="highlight"></span>
+       <span class="bar"></span>
+       <label>Zip Code</label>
+      </div>
+      <div class="group">
+       <input type="text" required id="Email">
+       <span class="highlight"></span>
+       <span class="bar"></span>
+       <label>Email</label>
+      </div>
+      <br>
+      <span>Sex</span>
+      <input type="radio" name="" value="" id="msex"> Male
+      <input type="radio" name="" value="" id="fsex"> Female
+      <br>
+      <span>Language</span>
+      <input type="checkbox" name="" value=""> English
+      <input type="checkbox" name="" value=""> Non-English
+      <br>
+      <span>About</span>
+      <br>
+      <textarea name="name" rows="8" cols="80"></textarea>
+      <br>
+      <button type="submit" name="button">Submit</button>
+    </form>
+  </body>
+</html>
