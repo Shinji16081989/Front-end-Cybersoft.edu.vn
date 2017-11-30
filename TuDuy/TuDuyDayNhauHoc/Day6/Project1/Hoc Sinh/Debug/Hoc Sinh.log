@@ -1,0 +1,11 @@
+﻿  HOCSINH.cpp
+c:\users\dangnguyen\front-end-cybersoft.edu.vn\tuduy\tuduydaynhauhoc\day6\project1\hoc sinh\hocsinh.cpp(22): error C2672: 'getline': no matching overloaded function found
+c:\users\dangnguyen\front-end-cybersoft.edu.vn\tuduy\tuduydaynhauhoc\day6\project1\hoc sinh\hocsinh.cpp(22): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_string<_Elem,_Traits,_Alloc> &' from 'char [50]'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\string(155): note: see declaration of 'std::getline'
+c:\users\dangnguyen\front-end-cybersoft.edu.vn\tuduy\tuduydaynhauhoc\day6\project1\hoc sinh\hocsinh.cpp(22): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\string(144): note: see declaration of 'std::getline'
+c:\users\dangnguyen\front-end-cybersoft.edu.vn\tuduy\tuduydaynhauhoc\day6\project1\hoc sinh\hocsinh.cpp(22): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'std::basic_string<_Elem,_Traits,_Alloc> &' from 'char [50]'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\string(124): note: see declaration of 'std::getline'
+c:\users\dangnguyen\front-end-cybersoft.edu.vn\tuduy\tuduydaynhauhoc\day6\project1\hoc sinh\hocsinh.cpp(22): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': expects 3 arguments - 2 provided
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\string(71): note: see declaration of 'std::getline'
+c:\users\dangnguyen\front-end-cybersoft.edu.vn\tuduy\tuduydaynhauhoc\day6\project1\hoc sinh\hocsinh.cpp(35): error C2065: 'Gioi': undeclared identifier
