@@ -1,0 +1,5 @@
+﻿  Mang1Chieu.cpp
+c:\users\dang\downloads\front-end-cybersoft.edu.vn\tuduy\tuduydaynhauhoc\day2\day3\day4\mang1chieu.cpp(6): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+c:\users\dang\downloads\front-end-cybersoft.edu.vn\tuduy\tuduydaynhauhoc\day2\day3\day4\mang1chieu.cpp(6): warning C4305: 'initializing': truncation from 'int' to 'char'
+c:\users\dang\downloads\front-end-cybersoft.edu.vn\tuduy\tuduydaynhauhoc\day2\day3\day4\mang1chieu.cpp(6): warning C4309: 'initializing': truncation of constant value
+  Day4.vcxproj -> C:\Users\Dang\Downloads\Front-end-Cybersoft.edu.vn\TuDuy\TuDuyDayNhauHoc\Day2\Day3\Debug\Day4.exe

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!--Lưu ý chèn js theo thứ tự main cần sử dụng danhsachsinhvien, danhsachsinhvien cần sử dụng sinhvien-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- <script type="text/javascript" src="dsSinhVien.js"></script> -->
+	<script type="text/javascript" src="SinhVien.js"></script>
+	<script type="text/javascript" src="DanhSachSinhVien.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<h2>Thông tin sinh viên</h2>
+		<form>
+			<div class="form-group">
+				<label for="masv">Mã SV:</label>
+				<input type="text" class="form-control" id="masv" placeholder="Nhập MaSV" name="MaSV">
+			</div>
+			<div class="form-group">
+				<label for="hoten">Họ tên:</label>
+				<input type="text" class="form-control" id="hoten" placeholder="Nhập Họ tên" name="hoten">
+			</div>
+			<div class="form-group">
+				<label for="cmnd">CMND:</label>
+				<input type="text" class="form-control" id="cmnd" placeholder="Nhập CMND" name="cmnd">
+			</div>
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" class="form-control" id="email" placeholder="Nhập Email" name="email">
+			</div>
+			<div class="form-group">
+				<label for="sdt">Điện thoại:</label>
+				<input type="number" class="form-control" id="sdt" placeholder="Nhập SDT" name="sdt">
+			</div> 
+			<button type="button" class="btn btn-success" onclick="ThemSinhVien()">Thêm sinh viên</button>
+		</form>
+		<h2>Danh sách sinh viên</h2>
+		<select multiple id="lstDanhSachSinhVien">
+			
+		</select>
+		<br />
+		<button type="button" class="btn btn-success" onclick="XoaSinhVien()">Xóa sinh viên</button>
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
