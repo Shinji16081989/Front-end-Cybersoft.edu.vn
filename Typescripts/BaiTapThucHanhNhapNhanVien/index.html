@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nhap Sinh Vien</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+    <h1> Thông tin nhân viên </h1>
+    <br>
+    <p>Mã Nhân Viên</p>
+    <input type="text" id="manv">
+    <br>
+    <p>Họ Và Tên</p>
+    <input type="text" id="hoten">
+    <br>
+    <p>Lương CB</p>
+    <input type="text" id="luongcb">
+    <br>
+    <p> Loại NV</p>
+    <input type="radio" name="NhanVien" value="1" class="NhanVien"> Sếp
+    <input type="radio" name="NhanVien" value="2" class="NhanVien"> Quản Lý
+    <input type="radio" name="NhanVien" value="3" class="NhanVien"> Thường
+    <br>
+    <br>
+    <button type="button" class="btn btn-success">Thêm Nhân Viên</button>
+    <br>
+    <br>
+    <input type="button" class="btn btn-success" value="Xuất Thông Tin NV">
+    <br>
+    <br>
+    <h1>Danh Sách Nhân Viên</h1>
+</div>
+    <script src="jsFile/NhanVien.js"></script>
+    <script src="jsFile/main.js"></script>
+</body>
+</html>
