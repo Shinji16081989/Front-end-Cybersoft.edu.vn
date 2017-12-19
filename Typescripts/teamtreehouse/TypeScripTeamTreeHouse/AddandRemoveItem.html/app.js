@@ -2,20 +2,32 @@ const descriptioninput = document.querySelector('input.description');
 const descriptionp = document.querySelector('p.description');
 const descriptionbutton = document.querySelector('button.description');
 const toggleList = document.getElementById('toggleList');
-const listDiv = document.querySelector('#list');
+const listDiv = document.querySelector('.list');
 const addItemInput = document.querySelector('input.addItem');
 const addItemButton = document.querySelector('button.addItem');
 const removeItemButton = document.querySelector('button.removeItem');
-const listItem = document.getElementsByTagName('li');
+// const listItems = document.getElementsByTagName('LI');
 
-for (let i = 0; i < listItem.length; i++) {
-  listItem[i].addEventListener('mouseover', () => {
-    listItem[i].textContent = listItem[i].textContent.toUpperCase();
-  });
-  listItem[i].addEventListener('mouseout', () => {
-    listItem[i].textContent = listItem[i].textContent.toLowerCase();
-  });
-}
+listDiv.addEventListener('mouseover', (event) => {
+  if (event.target.tagName == 'LI') {
+    event.target.textContent = event.target.textContent.toUpperCase();
+  }
+});
+listDiv.addEventListener('mouseout', (event) => {
+  if (event.target.tagName == 'LI') {
+    event.target.textContent = event.target.textContent.toLowerCase();
+  }
+});
+
+// for (var i = 0; i < listItems.length; i++) {
+//   listItems[i].addEventListener('mouseover', () => {
+//     listItems[i].textContent = listItems[i].textContent.toUpperCase();
+//   });
+//   listItems[i].addEventListener('mouseout', () => {
+//     listItems[i].textContent = listItems[i].textContent.toLowerCase();
+//   });
+// }
+
 
 toggleList.addEventListener('click', () => {
   if (listDiv.style.display == 'none') {
