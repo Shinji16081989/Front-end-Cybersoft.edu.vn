@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ajaxs</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="body">
+    </div>
+    <button id="btnGet">Load data</button>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#btnGet').click(function(){
+          var url = "DeThiTracNghiem.json";
+          $.ajax({
+            type: 'GET',
+            url: url,
+            cache: 'false';
+            success: function (ketqua){
+              console.log(ketqua);
+              var content = "";
+              //var lstCauHoi = $(dataxml).find("Cauhoi");
+              for( var i = 0; i < ketqua.DanhSachCauHoi.length;i++)
+              {
+                content += ketqua.DanhSachCauHoi[i].NoiDungCauHoi + "</br>";
+              }
+              $("#content").append(content);
+            },
+            error: function (parsejson, textStatus, errorThrown) {
+              $('body').append(
+                "parsejson status: " + parsejson.status + '</br>' +
+                "errorStatus: " + textStatus + '</br>' +
+                "errorThrown: " + errorThrown);
+            }
+        });
+      });
+    });
+    </script>
+
+    // Lay du Lieu XML
+    <!-- <script type="text/javascript">
+      $(document).ready(function () {
+        $('#btnGet').click(function(){
+          var url = "DeThiTracNghiem.xml";
+          $.ajax({
+            type: 'GET',
+            url: url,
+            success: function (dataxml){
+              console.log(dataxml);
+              var content = "";
+              var lstCauHoi = $(dataxml).find("Cauhoi");
+              for( var i = 0; i < lstCauHoi.length;i++)
+              {
+                content += $(lstCauHoi[i]).find("NoiDungCauHoi").html() + "</br>";
+              }
+              $("#body").append(content);
+            },
+            error: function (parsejson, textStatus, errorThrown) {
+              $('body').append(
+                "parsejson status: " + parsejson.status + '</br>' +
+                "errorStatus: " + textStatus + '</br>' +
+                "errorThrown: " + errorThrown);
+            }
+        });
+      });
+    }); -->
+    </script>
+  </body>
+</html>

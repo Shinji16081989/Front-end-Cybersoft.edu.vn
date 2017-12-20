@@ -1,0 +1,480 @@
+{
+    "DanhSachCauHoi": [
+        {
+            "LoaiCauHoi": 1,
+            "MaCauHoi": 1,
+            "NoiDungCauHoi": "Câu hỏi 1: Đáp án nào sau đây là đúng ?",
+            "DanhSachCauTraLoi": [
+                {
+                    "MaCauTraLoi": "2",
+                    "Nhom": null,
+                    "DapAnDung": "false",
+                    "NoiDung": "Đáp án 1",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "3",
+                    "Nhom": null,
+                    "DapAnDung": "false",
+                    "NoiDung": "Đáp án 2",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "4",
+                    "Nhom": null,
+                    "DapAnDung": "false",
+                    "NoiDung": "Đáp án 3",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "5",
+                    "Nhom": null,
+                    "DapAnDung": "true",
+                    "NoiDung": "Đáp án 4",
+                    "STT": null
+                }
+            ]
+        },
+        {
+            "LoaiCauHoi": 1,
+            "MaCauHoi": 2,
+            "NoiDungCauHoi": "Câu hỏi 2: Đáp án nào sau đây là đúng ?",
+            "DanhSachCauTraLoi": [
+                {
+                    "MaCauTraLoi": "3",
+                    "Nhom": null,
+                    "DapAnDung": "false",
+                    "NoiDung": "Đáp án 1",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "5",
+                    "Nhom": null,
+                    "DapAnDung": "false",
+                    "NoiDung": "Đáp án 2",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "7",
+                    "Nhom": null,
+                    "DapAnDung": "false",
+                    "NoiDung": "Đáp án 3",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "9",
+                    "Nhom": null,
+                    "DapAnDung": "true",
+                    "NoiDung": "Đáp án 4",
+                    "STT": null
+                }
+            ]
+        },
+        {
+            "LoaiCauHoi": 1,
+            "MaCauHoi": 3,
+            "NoiDungCauHoi": "Câu hỏi 3: Đáp án nào sau đây là đúng ?",
+            "DanhSachCauTraLoi": [
+                {
+                    "MaCauTraLoi": "4",
+                    "Nhom": null,
+                    "DapAnDung": "false",
+                    "NoiDung": "Đáp án 1",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "7",
+                    "Nhom": null,
+                    "DapAnDung": "false",
+                    "NoiDung": "Đáp án 2",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "10",
+                    "Nhom": null,
+                    "DapAnDung": "false",
+                    "NoiDung": "Đáp án 3",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "13",
+                    "Nhom": null,
+                    "DapAnDung": "true",
+                    "NoiDung": "Đáp án 4",
+                    "STT": null
+                }
+            ]
+        },
+        {
+            "LoaiCauHoi": 1,
+            "MaCauHoi": 4,
+            "NoiDungCauHoi": "Câu hỏi 4: Đáp án nào sau đây là đúng ?",
+            "DanhSachCauTraLoi": [
+                {
+                    "MaCauTraLoi": "5",
+                    "Nhom": null,
+                    "DapAnDung": "false",
+                    "NoiDung": "Đáp án 1",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "9",
+                    "Nhom": null,
+                    "DapAnDung": "false",
+                    "NoiDung": "Đáp án 2",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "13",
+                    "Nhom": null,
+                    "DapAnDung": "false",
+                    "NoiDung": "Đáp án 3",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "17",
+                    "Nhom": null,
+                    "DapAnDung": "true",
+                    "NoiDung": "Đáp án 4",
+                    "STT": null
+                }
+            ]
+        },
+        {
+            "LoaiCauHoi": 2,
+            "MaCauHoi": 5,
+            "NoiDungCauHoi": "Câu hỏi 5: Hãy nhập vào đáp án đúng",
+            "DanhSachCauTraLoi": [
+                {
+                    "MaCauTraLoi": "5",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 5",
+                    "STT": null
+                }
+            ]
+        },
+        {
+            "LoaiCauHoi": 2,
+            "MaCauHoi": 6,
+            "NoiDungCauHoi": "Câu hỏi 6: Hãy nhập vào đáp án đúng",
+            "DanhSachCauTraLoi": [
+                {
+                    "MaCauTraLoi": "6",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 6",
+                    "STT": null
+                }
+            ]
+        },
+        {
+            "LoaiCauHoi": 2,
+            "MaCauHoi": 7,
+            "NoiDungCauHoi": "Câu hỏi 7: Hãy nhập vào đáp án đúng",
+            "DanhSachCauTraLoi": [
+                {
+                    "MaCauTraLoi": "7",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 7",
+                    "STT": null
+                }
+            ]
+        },
+        {
+            "LoaiCauHoi": 2,
+            "MaCauHoi": 8,
+            "NoiDungCauHoi": "Câu hỏi 8: Hãy nhập vào đáp án đúng",
+            "DanhSachCauTraLoi": [
+                {
+                    "MaCauTraLoi": "8",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 8",
+                    "STT": null
+                }
+            ]
+        },
+        {
+            "LoaiCauHoi": 3,
+            "MaCauHoi": 9,
+            "NoiDungCauHoi": "Câu hỏi 9: Hãy sắp xếp lại các đáp án",
+            "DanhSachCauTraLoi": [
+                {
+                    "MaCauTraLoi": "10",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 1",
+                    "STT": "1"
+                },
+                {
+                    "MaCauTraLoi": "19",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 2",
+                    "STT": "2"
+                },
+                {
+                    "MaCauTraLoi": "28",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 3",
+                    "STT": "3"
+                },
+                {
+                    "MaCauTraLoi": "37",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 4",
+                    "STT": "4"
+                }
+            ]
+        },
+        {
+            "LoaiCauHoi": 3,
+            "MaCauHoi": 10,
+            "NoiDungCauHoi": "Câu hỏi 10: Hãy sắp xếp lại các đáp án",
+            "DanhSachCauTraLoi": [
+                {
+                    "MaCauTraLoi": "11",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 1",
+                    "STT": "1"
+                },
+                {
+                    "MaCauTraLoi": "21",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 2",
+                    "STT": "2"
+                },
+                {
+                    "MaCauTraLoi": "31",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 3",
+                    "STT": "3"
+                },
+                {
+                    "MaCauTraLoi": "41",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 4",
+                    "STT": "4"
+                }
+            ]
+        },
+        {
+            "LoaiCauHoi": 3,
+            "MaCauHoi": 11,
+            "NoiDungCauHoi": "Câu hỏi 11: Hãy sắp xếp lại các đáp án",
+            "DanhSachCauTraLoi": [
+                {
+                    "MaCauTraLoi": "12",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 1",
+                    "STT": "1"
+                },
+                {
+                    "MaCauTraLoi": "23",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 2",
+                    "STT": "2"
+                },
+                {
+                    "MaCauTraLoi": "34",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 3",
+                    "STT": "3"
+                },
+                {
+                    "MaCauTraLoi": "45",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 4",
+                    "STT": "4"
+                }
+            ]
+        },
+        {
+            "LoaiCauHoi": 3,
+            "MaCauHoi": 12,
+            "NoiDungCauHoi": "Câu hỏi 12: Hãy sắp xếp lại các đáp án",
+            "DanhSachCauTraLoi": [
+                {
+                    "MaCauTraLoi": "13",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 1",
+                    "STT": "1"
+                },
+                {
+                    "MaCauTraLoi": "25",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 2",
+                    "STT": "2"
+                },
+                {
+                    "MaCauTraLoi": "37",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 3",
+                    "STT": "3"
+                },
+                {
+                    "MaCauTraLoi": "49",
+                    "Nhom": null,
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 4",
+                    "STT": "4"
+                }
+            ]
+        },
+        {
+            "LoaiCauHoi": 4,
+            "MaCauHoi": 13,
+            "NoiDungCauHoi": "Câu hỏi 13: Hãy sắp xếp các đáp án sau vào các nhóm cho đúng ",
+            "DanhSachCauTraLoi": [
+                {
+                    "MaCauTraLoi": "14",
+                    "Nhom": "Nhóm B",
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 1",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "27",
+                    "Nhom": "Nhóm A",
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 2",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "40",
+                    "Nhom": "Nhóm B",
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 3",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "53",
+                    "Nhom": "Nhóm A",
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 4",
+                    "STT": null
+                }
+            ]
+        },
+        {
+            "LoaiCauHoi": 4,
+            "MaCauHoi": 14,
+            "NoiDungCauHoi": "Câu hỏi 14: Hãy sắp xếp các đáp án sau vào các nhóm cho đúng ",
+            "DanhSachCauTraLoi": [
+                {
+                    "MaCauTraLoi": "15",
+                    "Nhom": "Nhóm B",
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 1",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "29",
+                    "Nhom": "Nhóm A",
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 2",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "43",
+                    "Nhom": "Nhóm B",
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 3",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "57",
+                    "Nhom": "Nhóm A",
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 4",
+                    "STT": null
+                }
+            ]
+        },
+        {
+            "LoaiCauHoi": 4,
+            "MaCauHoi": 15,
+            "NoiDungCauHoi": "Câu hỏi 15: Hãy sắp xếp các đáp án sau vào các nhóm cho đúng ",
+            "DanhSachCauTraLoi": [
+                {
+                    "MaCauTraLoi": "16",
+                    "Nhom": "Nhóm B",
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 1",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "31",
+                    "Nhom": "Nhóm A",
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 2",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "46",
+                    "Nhom": "Nhóm B",
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 3",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "61",
+                    "Nhom": "Nhóm A",
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 4",
+                    "STT": null
+                }
+            ]
+        },
+        {
+            "LoaiCauHoi": 4,
+            "MaCauHoi": 16,
+            "NoiDungCauHoi": "Câu hỏi 16: Hãy sắp xếp các đáp án sau vào các nhóm cho đúng ",
+            "DanhSachCauTraLoi": [
+                {
+                    "MaCauTraLoi": "17",
+                    "Nhom": "Nhóm B",
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 1",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "33",
+                    "Nhom": "Nhóm A",
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 2",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "49",
+                    "Nhom": "Nhóm B",
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 3",
+                    "STT": null
+                },
+                {
+                    "MaCauTraLoi": "65",
+                    "Nhom": "Nhóm A",
+                    "DapAnDung": null,
+                    "NoiDung": "Đáp án 4",
+                    "STT": null
+                }
+            ]
+        }
+    ]
+}

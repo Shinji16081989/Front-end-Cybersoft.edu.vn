@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ajaxs</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="movies" class="row">
+        <div class="col-4-md">
+
+        </div>
+      </div>
+      
+      </div>
+    <button id="btnGet">Load data</button>
+    <!-- <script type="text/javascript">
+      $(document).ready(function () {
+        $('#btnGet').click(function(){
+          var url = "https://5a35e59f881a7b0012fe9dda.mockapi.io/demoUser";
+          $.ajax({
+            type: 'GET',
+            url: url,
+            cache: 'false',
+            success: function (ketqua){
+              console.log(ketqua);
+              var content = "";
+              //var lstCauHoi = $(dataxml).find("Cauhoi");
+              for( var i = 0; i < ketqua.length;i++)
+              {
+                content += " ID " + ketqua[i].id + " - Name: " + ketqua[i].name + "</br>";
+              }
+              $("#content").append(content);
+            },
+            error: function (parsejson, textStatus, errorThrown) {
+              $('body').append(
+                "parsejson status: " + parsejson.status + '</br>' +
+                "errorStatus: " + textStatus + '</br>' +
+                "errorThrown: " + errorThrown);
+            }
+        });
+      });
+    });
+    </script> -->
+
+    <!-- // Lay du Lieu XML
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#btnGet').click(function(){
+          var url = "DeThiTracNghiem.xml";
+          $.ajax({
+            type: 'GET',
+            url: url,
+            success: function (dataxml){
+              console.log(dataxml);
+              var content = "";
+              var lstCauHoi = $(dataxml).find("Cauhoi");
+              for( var i = 0; i < lstCauHoi.length;i++)
+              {
+                content += $(lstCauHoi[i]).find("NoiDungCauHoi").html() + "</br>";
+              }
+              $("#body").append(content);
+            },
+            error: function (parsejson, textStatus, errorThrown) {
+              $('body').append(
+                "parsejson status: " + parsejson.status + '</br>' +
+                "errorStatus: " + textStatus + '</br>' +
+                "errorThrown: " + errorThrown);
+            }
+        });
+      });
+    });
+    </script> -->
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#btnGet').click(function(){
+          var url = "http://sv.myclass.vn/api/movie/getmovie";
+          $.ajax({
+            type: 'GET',
+            url: url,
+            cache: 'false',
+            success: function (ketqua){
+              console.log(ketqua);
+              var content = "";
+              //var lstCauHoi = $(dataxml).find("Cauhoi");
+              for( var i = 0; i < ketqua.length;i++)
+              {
+                content += " ID " + ketqua[i].Titles + " - Name: " + ketqua[i].name + "</br>";
+              }
+              $("#content").append(content);
+            },
+            error: function (parsejson, textStatus, errorThrown) {
+              $('body').append(
+                "parsejson status: " + parsejson.status + '</br>' +
+                "errorStatus: " + textStatus + '</br>' +
+                "errorThrown: " + errorThrown);
+            }
+        });
+      });
+    });
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>

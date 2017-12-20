@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<DeThiTracNghiem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<DanhSachCauHoi>
+<CauHoi LoaiCauHoi="1" MaCauHoi="1">
+<NoiDungCauHoi>Câu hỏi 1: Đáp án nào sau đây là đúng ?</NoiDungCauHoi>
+<DanhSachCauTraLoi>
+<CauTraLoi MaCauTraLoi="1" DapAnDung="false" NoiDung="Đáp án 1"/>
+<CauTraLoi MaCauTraLoi="2" DapAnDung="false" NoiDung="Đáp án 2"/>
+<CauTraLoi MaCauTraLoi="3" DapAnDung="false" NoiDung="Đáp án 3"/>
+<CauTraLoi MaCauTraLoi="4" DapAnDung="true" NoiDung="Đáp án 4"/>
+</DanhSachCauTraLoi>
+</CauHoi>
+<CauHoi LoaiCauHoi="1" MaCauHoi="2">
+<NoiDungCauHoi>Câu hỏi 2: Đáp án nào sau đây là đúng ?</NoiDungCauHoi>
+<DanhSachCauTraLoi>
+<CauTraLoi MaCauTraLoi="5" DapAnDung="false" NoiDung="Đáp án 1"/>
+<CauTraLoi MaCauTraLoi="6" DapAnDung="false" NoiDung="Đáp án 2"/>
+<CauTraLoi MaCauTraLoi="7" DapAnDung="false" NoiDung="Đáp án 3"/>
+<CauTraLoi MaCauTraLoi="8" DapAnDung="true" NoiDung="Đáp án 4"/>
+</DanhSachCauTraLoi>
+</CauHoi>
+<CauHoi LoaiCauHoi="1" MaCauHoi="3">
+<NoiDungCauHoi>Câu hỏi 3: Đáp án nào sau đây là đúng ?</NoiDungCauHoi>
+<DanhSachCauTraLoi>
+<CauTraLoi MaCauTraLoi="9" DapAnDung="false" NoiDung="Đáp án 1"/>
+<CauTraLoi MaCauTraLoi="10" DapAnDung="false" NoiDung="Đáp án 2"/>
+<CauTraLoi MaCauTraLoi="11" DapAnDung="false" NoiDung="Đáp án 3"/>
+<CauTraLoi MaCauTraLoi="12" DapAnDung="true" NoiDung="Đáp án 4"/>
+</DanhSachCauTraLoi>
+</CauHoi>
+<CauHoi LoaiCauHoi="1" MaCauHoi="4">
+<NoiDungCauHoi>Câu hỏi 4: Đáp án nào sau đây là đúng ?</NoiDungCauHoi>
+<DanhSachCauTraLoi>
+<CauTraLoi MaCauTraLoi="13" DapAnDung="false" NoiDung="Đáp án 1"/>
+<CauTraLoi MaCauTraLoi="14" DapAnDung="false" NoiDung="Đáp án 2"/>
+<CauTraLoi MaCauTraLoi="15" DapAnDung="false" NoiDung="Đáp án 3"/>
+<CauTraLoi MaCauTraLoi="16" DapAnDung="true" NoiDung="Đáp án 4"/>
+</DanhSachCauTraLoi>
+</CauHoi>
+<CauHoi LoaiCauHoi="2" MaCauHoi="5">
+<NoiDungCauHoi>Câu hỏi 5: Hãy nhập vào đáp án đúng</NoiDungCauHoi>
+<DanhSachCauTraLoi>
+<CauTraLoi MaCauTraLoi="17" NoiDung="Đáp án 5"/>
+</DanhSachCauTraLoi>
+</CauHoi>
+<CauHoi LoaiCauHoi="2" MaCauHoi="6">
+<NoiDungCauHoi>Câu hỏi 6: Hãy nhập vào đáp án đúng</NoiDungCauHoi>
+<DanhSachCauTraLoi>
+<CauTraLoi MaCauTraLoi="18" NoiDung="Đáp án 6"/>
+</DanhSachCauTraLoi>
+</CauHoi>
+<CauHoi LoaiCauHoi="2" MaCauHoi="7">
+<NoiDungCauHoi>Câu hỏi 7: Hãy nhập vào đáp án đúng</NoiDungCauHoi>
+<DanhSachCauTraLoi>
+<CauTraLoi MaCauTraLoi="19" NoiDung="Đáp án 7"/>
+</DanhSachCauTraLoi>
+</CauHoi>
+<CauHoi LoaiCauHoi="2" MaCauHoi="8">
+<NoiDungCauHoi>Câu hỏi 8: Hãy nhập vào đáp án đúng</NoiDungCauHoi>
+<DanhSachCauTraLoi>
+<CauTraLoi MaCauTraLoi="20" NoiDung="Đáp án 8"/>
+</DanhSachCauTraLoi>
+</CauHoi>
+<CauHoi LoaiCauHoi="3" MaCauHoi="9">
+<NoiDungCauHoi>Câu hỏi 9: Hãy sắp xếp lại các đáp án</NoiDungCauHoi>
+<DanhSachCauTraLoi>
+<CauTraLoi MaCauTraLoi="21" NoiDung="Đáp án 1" STT="1"/>
+<CauTraLoi MaCauTraLoi="22" NoiDung="Đáp án 2" STT="2"/>
+<CauTraLoi MaCauTraLoi="23" NoiDung="Đáp án 3" STT="3"/>
+<CauTraLoi MaCauTraLoi="24" NoiDung="Đáp án 4" STT="4"/>
+</DanhSachCauTraLoi>
+</CauHoi>
+<CauHoi LoaiCauHoi="3" MaCauHoi="10">
+<NoiDungCauHoi>Câu hỏi 10: Hãy sắp xếp lại các đáp án</NoiDungCauHoi>
+<DanhSachCauTraLoi>
+<CauTraLoi MaCauTraLoi="25" NoiDung="Đáp án 1" STT="1"/>
+<CauTraLoi MaCauTraLoi="26" NoiDung="Đáp án 2" STT="2"/>
+<CauTraLoi MaCauTraLoi="27" NoiDung="Đáp án 3" STT="3"/>
+<CauTraLoi MaCauTraLoi="28" NoiDung="Đáp án 4" STT="4"/>
+</DanhSachCauTraLoi>
+</CauHoi>
+<CauHoi LoaiCauHoi="3" MaCauHoi="11">
+<NoiDungCauHoi>Câu hỏi 11: Hãy sắp xếp lại các đáp án</NoiDungCauHoi>
+<DanhSachCauTraLoi>
+<CauTraLoi MaCauTraLoi="29" NoiDung="Đáp án 1" STT="1"/>
+<CauTraLoi MaCauTraLoi="30" NoiDung="Đáp án 2" STT="2"/>
+<CauTraLoi MaCauTraLoi="31" NoiDung="Đáp án 3" STT="3"/>
+<CauTraLoi MaCauTraLoi="32" NoiDung="Đáp án 4" STT="4"/>
+</DanhSachCauTraLoi>
+</CauHoi>
+<CauHoi LoaiCauHoi="3" MaCauHoi="12">
+<NoiDungCauHoi>Câu hỏi 12: Hãy sắp xếp lại các đáp án</NoiDungCauHoi>
+<DanhSachCauTraLoi>
+<CauTraLoi MaCauTraLoi="33" NoiDung="Đáp án 1" STT="1"/>
+<CauTraLoi MaCauTraLoi="34" NoiDung="Đáp án 2" STT="2"/>
+<CauTraLoi MaCauTraLoi="35" NoiDung="Đáp án 3" STT="3"/>
+<CauTraLoi MaCauTraLoi="36" NoiDung="Đáp án 4" STT="4"/>
+</DanhSachCauTraLoi>
+</CauHoi>
+<CauHoi LoaiCauHoi="4" MaCauHoi="13">
+<NoiDungCauHoi>
+Câu hỏi 13: Hãy sắp xếp các đáp án sau vào các nhóm cho đúng
+</NoiDungCauHoi>
+<DanhSachCauTraLoi>
+<CauTraLoi MaCauTraLoi="37" Nhom="Nhóm B" NoiDung="Đáp án 1"/>
+<CauTraLoi MaCauTraLoi="38" Nhom="Nhóm A" NoiDung="Đáp án 2"/>
+<CauTraLoi MaCauTraLoi="39" Nhom="Nhóm B" NoiDung="Đáp án 3"/>
+<CauTraLoi MaCauTraLoi="40" Nhom="Nhóm A" NoiDung="Đáp án 4"/>
+</DanhSachCauTraLoi>
+</CauHoi>
+<CauHoi LoaiCauHoi="4" MaCauHoi="14">
+<NoiDungCauHoi>
+Câu hỏi 14: Hãy sắp xếp các đáp án sau vào các nhóm cho đúng
+</NoiDungCauHoi>
+<DanhSachCauTraLoi>
+<CauTraLoi MaCauTraLoi="41" Nhom="Nhóm B" NoiDung="Đáp án 1"/>
+<CauTraLoi MaCauTraLoi="42" Nhom="Nhóm A" NoiDung="Đáp án 2"/>
+<CauTraLoi MaCauTraLoi="43" Nhom="Nhóm B" NoiDung="Đáp án 3"/>
+<CauTraLoi MaCauTraLoi="44" Nhom="Nhóm A" NoiDung="Đáp án 4"/>
+</DanhSachCauTraLoi>
+</CauHoi>
+<CauHoi LoaiCauHoi="4" MaCauHoi="15">
+<NoiDungCauHoi>
+Câu hỏi 15: Hãy sắp xếp các đáp án sau vào các nhóm cho đúng
+</NoiDungCauHoi>
+<DanhSachCauTraLoi>
+<CauTraLoi MaCauTraLoi="45" Nhom="Nhóm B" NoiDung="Đáp án 1"/>
+<CauTraLoi MaCauTraLoi="46" Nhom="Nhóm A" NoiDung="Đáp án 2"/>
+<CauTraLoi MaCauTraLoi="47" Nhom="Nhóm B" NoiDung="Đáp án 3"/>
+<CauTraLoi MaCauTraLoi="48" Nhom="Nhóm A" NoiDung="Đáp án 4"/>
+</DanhSachCauTraLoi>
+</CauHoi>
+<CauHoi LoaiCauHoi="4" MaCauHoi="16">
+<NoiDungCauHoi>
+Câu hỏi 16: Hãy sắp xếp các đáp án sau vào các nhóm cho đúng
+</NoiDungCauHoi>
+<DanhSachCauTraLoi>
+<CauTraLoi MaCauTraLoi="49" Nhom="Nhóm B" NoiDung="Đáp án 1"/>
+<CauTraLoi MaCauTraLoi="50" Nhom="Nhóm A" NoiDung="Đáp án 2"/>
+<CauTraLoi MaCauTraLoi="51" Nhom="Nhóm B" NoiDung="Đáp án 3"/>
+<CauTraLoi MaCauTraLoi="52" Nhom="Nhóm A" NoiDung="Đáp án 4"/>
+</DanhSachCauTraLoi>
+</CauHoi>
+</DanhSachCauHoi>
+</DeThiTracNghiem>
