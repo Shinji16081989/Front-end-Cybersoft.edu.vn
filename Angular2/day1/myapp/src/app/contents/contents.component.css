@@ -1,0 +1,20 @@
+#yellow{
+    background-color: orange;
+    height: 600px;
+    font-size: 100px;
+    text-align: center;
+    color: white; 
+}
+
+#green{
+    background-color: green;
+    height: 600px;
+    font-size: 60px;
+    text-align: center;
+    color: white;  
+}
+
+#contentOutside{
+    background-color: yellow;
+    padding: 10px;
+}
