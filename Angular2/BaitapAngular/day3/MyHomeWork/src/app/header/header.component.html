@@ -4,10 +4,23 @@
     <h5>Xin Chao <b>Dang</b></h5>
   </div>
   <ng-template #NoiDungElse>
-    <h5>Chua Dang Nhap dau nha !</h5>
+    <h5>Chua Dang Nhap dau nha </h5>
   </ng-template>
   <button type="button" id="test1" (dblclick)="DangXuat()">Dang Xuat</button>
   <div *ngIf="test1">
     <h5>BB Dang</h5>
   </div>
+  <!-- <div *ngFor="let cauhoi of DanhSachCauHoi; let STT = index">
+    <h4><b>{{ STT }}. {{ cauhoi }}</b></h4>
+  </div> -->
+    <table class="table" border="2">
+      <tr id="tableth">
+        <th>So thu tu</th>
+        <th> Cau Hoi</th>
+      </tr>
+      <tr *ngFor="let cauhoi of DanhSachCauHoi; let STT = index">
+        <td>{{ STT }}</td>
+        <td>{{ cauhoi }}</td>
+      </tr>
+    </table>
 </div>

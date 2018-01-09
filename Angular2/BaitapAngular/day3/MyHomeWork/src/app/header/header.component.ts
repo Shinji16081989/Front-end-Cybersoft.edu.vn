@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
   public test:boolean = true;
   test1:boolean = false;
+  DanhSachCauHoi:Array<any> = ["Ten ban la gi?", " Ban Bao nhieu tuoi?", "Ban den tu dau"];
   DangNhap()
   {
     this.test = false;
