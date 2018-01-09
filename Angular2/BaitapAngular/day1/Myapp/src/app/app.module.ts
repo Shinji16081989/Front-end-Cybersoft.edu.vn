@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { LayoutComponent } from './layout/layout.component';
 import { HeaderComponent } from './layout/header/header.component';
+import { Derective1Component } from './layout/derective1/derective1.component';
+import { Deretive2Component } from './layout/deretive2/deretive2.component';
 
 
 @NgModule({
@@ -12,6 +14,8 @@ import { HeaderComponent } from './layout/header/header.component';
     AppComponent,
     LayoutComponent,
     HeaderComponent,
+    Derective1Component,
+    Deretive2Component,
   ],
   imports: [
     BrowserModule,FormsModule

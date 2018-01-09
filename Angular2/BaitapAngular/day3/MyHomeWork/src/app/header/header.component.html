@@ -1,0 +1,13 @@
+<div class="container">
+  <button type="button" id="test" (click)="DangNhap()">Dang Nhap</button>
+  <div *ngIf="test; else NoiDungElse">
+    <h5>Xin Chao <b>Dang</b></h5>
+  </div>
+  <ng-template #NoiDungElse>
+    <h5>Chua Dang Nhap dau nha !</h5>
+  </ng-template>
+  <button type="button" id="test1" (dblclick)="DangXuat()">Dang Xuat</button>
+  <div *ngIf="test1">
+    <h5>BB Dang</h5>
+  </div>
+</div>

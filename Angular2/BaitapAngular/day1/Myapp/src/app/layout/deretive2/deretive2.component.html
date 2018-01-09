@@ -1,0 +1,7 @@
+<button type="button" (click) = "DangNhap()">SignOut</button>
+  <div *ngIf="status; else NoiDungElse">
+    <h5>Xin Chao <b>Cybersoft</b></h5>
+  </div>
+  <ng-template #NoiDungElse>
+    <h5>Chua dang nhap</h5>
+  </ng-template>

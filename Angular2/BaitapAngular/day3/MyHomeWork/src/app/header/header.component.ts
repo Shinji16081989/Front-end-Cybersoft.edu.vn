@@ -6,13 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  public Email:string;
-  public Fullname:string = "Dung twoway binding";
-  ButtonInput(value)
+  public test:boolean = true;
+  test1:boolean = false;
+  DangNhap()
   {
-    this.Fullname = value;
+    this.test = false;
+  }
+  DangXuat()
+  {
+    this.test1 = true;
   }
   constructor() { }
+
   ngOnInit() {
   }
 
