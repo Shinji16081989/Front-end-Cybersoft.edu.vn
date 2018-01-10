@@ -1,17 +1,25 @@
-
 <div class="container">
   <h1>Login Form</h1>
+  <!-- <div *ngIf="status; else NoiDungElse"> -->
   <div *ngIf="status; else NoiDungElse">
     <p><b>Email</b></p>
     <input type="text" #user>
     <p><b>Password</b></p>
     <input type="password" #password>
     <p></p>
-    <button type="button" class="btn-success" name="button" (click) = DangNhap(user.value,password.value)>Login</button>
+    <button type="button" class="btn-success" name="button" (click)=DangNhap(user.value,password.value)>Login</button>
   </div>
+  <ng-template [ngIf] ="status">
+    <div class="alert alert-warning" role="alert">Nhập Sai Thông Tin</div>
+  </ng-template>
   <ng-template #NoiDungElse>
+  <!-- Hoac co the su dung [ngIf] = "!status" -->
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <strong>Congratulations!</strong> Bạn đã Đăng Nhập thành công
+    </div>
     <div class="container">
-      <h3>Xin Chao Cybersoft</h3>
+      <h3>Xin Chao <b>Cybersoft</b></h3>
     </div>
   </ng-template>
 </div>
