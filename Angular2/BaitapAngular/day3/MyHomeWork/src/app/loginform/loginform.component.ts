@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginformComponent implements OnInit {
   public status:boolean = true;
-  DangNhap()
+  DangNhap(user, password)
   {
-    this.status = false;
+    if (user === "cybersoft" && password === "cybersoft"){
+      this.status = false;
+    }else{
+      this.status = true;
+      alert("Sai Thong Tin");
+    }
   }
   constructor() { }
 
