@@ -1,7 +1,7 @@
 <div class="container">
   <h1>Login Form</h1>
   <!-- <div *ngIf="status; else NoiDungElse"> -->
-  <div *ngIf="status; else NoiDungElse">
+  <div *ngIf="status; else NoiDungElse" >
     <p><b>Email</b></p>
     <input type="text" #user>
     <p><b>Password</b></p>
@@ -9,7 +9,7 @@
     <p></p>
     <button type="button" class="btn-success" name="button" (click)=DangNhap(user.value,password.value)>Login</button>
   </div>
-  <ng-template [ngIf] ="status">
+  <ng-template #NhapSai>
     <div class="alert alert-warning" role="alert">Nhập Sai Thông Tin</div>
   </ng-template>
   <ng-template #NoiDungElse>
