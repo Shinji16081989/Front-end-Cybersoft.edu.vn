@@ -1,0 +1,22 @@
+<app-testderective appCommoninside></app-testderective>
+<div appCommoninside>dsadsa</div>
+
+<button (click)="DangNhap()">Dang Nhap</button>
+<ng-template [ngIf] = "status" [ngIfElse] = "NoiDungElse">
+    <h1>Xin Chao <b>Cybersoft</b></h1>
+    <button (click)="DangXuat()"> Dang Xuat </button>
+</ng-template>
+<ng-template #NoiDungElse>
+    <h1>Chua Dang Nhap</h1>
+</ng-template>
+
+<ng-container *ngIf="lessons">
+    <div class="lesson" *ngFor="let lesson of lessons; let i = index">
+        <div class="lesson-detail">
+            {{ lesson }} {{ i }}
+        </div>
+    </div>
+</ng-container>
+
+<app-testderective> Cybersoft </app-testderective>
+<app-testderective> Do you know? </app-testderective>
