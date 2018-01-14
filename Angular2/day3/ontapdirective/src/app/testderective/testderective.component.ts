@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-testderective',
@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./testderective.component.css']
 })
 export class TestderectiveComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit() {
