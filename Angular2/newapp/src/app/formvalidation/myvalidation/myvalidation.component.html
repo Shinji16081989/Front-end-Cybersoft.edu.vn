@@ -1,0 +1,32 @@
+<h1>Validation Form</h1>
+<form #registerform="ngForm" (ngSubmit) = "Submit(registerform.value)">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    //Validation phai co #email="ngModel" va ngModel
+    <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" #email='ngModel' ngModel required>
+    <div *ngIf="email.errors && (email.dirty || email.touched)">
+      <div *ngIf="email.errors.required" class="alert alert-danger">
+        Email khong duoc rong!
+      </div>
+    </div>
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input minlength="7" maxlength="15" name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" #password="ngModel" ngModel required>
+    <div *ngIf="password.errors && (password.dirty || password.touched)">
+    <div class="alert alert-danger" *ngIf="(password.errors.minlength || password.errors.maxlength)">
+      Phai tu 7 den 15 ky tu
+    </div>
+  </div>
+  </div>
+  <div class="form-group">
+    <label for="school" class="col-sm-2 control-label">School</label>
+      <div class="col-sm-10">
+        <select id="school" class="form-control" name="school" ngModel>
+          <option *ngFor='let school of schools' [value]="school.id"> {{ school.name }}</option>
+        </select>
+      </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
