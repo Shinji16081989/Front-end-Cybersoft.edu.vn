@@ -2,7 +2,7 @@
 <form #registerform="ngForm" (ngSubmit) = "Submit(registerform.value)">
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
-    //Validation phai co #email="ngModel" va ngModel
+    <!-- //Validation phai co #email="ngModel" va ngModel -->
     <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" #email='ngModel' ngModel required>
     <div *ngIf="email.errors && (email.dirty || email.touched)">
       <div *ngIf="email.errors.required" class="alert alert-danger">

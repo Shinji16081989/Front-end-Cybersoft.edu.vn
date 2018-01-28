@@ -1,0 +1,54 @@
+<form #registerForm="ngForm" class="form-horizontal" (ngSubmit) = "Submit(registerForm.value)">
+  <div class="container">
+    <h1>Please Sign Up</h1>
+    <input type="text" name="Fname" placeholder="First Name" id="fname" #fname='ngModel'  required ngModel> 
+    <!-- Kiem tra rong -->
+    <div *ngIf="fname.errors && (fname.dirty || fname.touched)">
+      <div *ngIf="fname.errors.required" id="firstname">
+        First name khong duoc rong
+      </div>
+    </div>
+    <input name="Lname" type="text" placeholder="Last Name" id="lname" #lname='ngModel' ngModel required>
+    <!-- Kiem tra rong -->
+    <div *ngIf="lname.errors && (lname.dirty || lname.touched)">
+      <div *ngIf="lname.errors.required" id="lastname">
+        Last name khong duoc rong
+      </div>
+    </div>
+    <p></p>
+    <input name="Dname" type="text" placeholder="Display Name" id="dname" #dname='ngModel' ngModel required>
+    <div *ngIf="dname.errors && (dname.dirty || dname.touched)">
+      <div *ngIf="dname.errors.required" id="dislayname">
+        Display name khong duoc rong
+      </div>
+    </div>
+    <p></p>
+    <input type="text" placeholder="Email Address">
+    <p></p>
+    <input name="Pword" type="password" placeholder="Password" minlength="7" maxlength="15" #pword='ngModel' ngModel required>
+    <div *ngIf="pword.errors && (pword.dirty || pword.touched)" class="alert alert-danger">
+      <div *ngIf="pword.errors.required">
+        password khong duoc rong
+      </div>
+      <div *ngIf= "(pword.errors.minlength || pword.errors.maxlength)">
+        password phai tu 7 den 15 ky tu
+      </div>
+    </div>
+    <input name="CPword" [ngClass]="{'ng-invalid':(pword.value !== cpword.value) }" type="password" placeholder="Confirm Password" #cpword='ngModel' ngModel required>
+    <div *ngIf="cpword.errors && (cpword.dirty || cpword.touched)" class="alert alert-danger">
+      <div *ngIf="cpword.errors.required">
+        confirm password khong duoc rong
+      </div>
+    </div>
+    <!-- truong hop trung pass -->
+    <div *ngIf="(cpword.dirty)">
+      <div *ngIf="pword.value !== cpword.value" class="alert alert-danger">
+        password & confirm password phai trung nhau
+      </div>  
+    </div>
+    <p></p>
+    <button class="btn btn-primary">Register</button>
+  </div>
+</form>
+
+
