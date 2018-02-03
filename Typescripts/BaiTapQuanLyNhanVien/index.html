@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1>Thông Tin Nhân Viên</h1>
+        <h5>Mã Nhân Viên</h5>
+        <input type="text" name="" id="manv" placeholder="Nhập Mã Nhân Viên">
+        <p></p>
+        <h5>Họ Tên</h5>
+        <input type="text" name="" id="hoten" placeholder="Nhập Họ Tên">
+        <p></p>
+        <h5>Lương CB</h5>
+        <input type="text" name="" id="luongcb" placeholder="Nhập Lương Cơ Bản">
+        <p></p>
+        <h5>Loại Nhân Viên</h5>
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline1" name="loainv" value="3" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline1">Sếp</label>
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline2" name="loainv" value="2" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline2">Quản Lý</label>
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline3" name="loainv" value="1" class="custom-control-input" checked="checked">
+            <label class="custom-control-label" for="customRadioInline3">Thường</label>
+        </div>
+        <p></p>
+        <button class="btn btn-primary" id="ThemNV">Thêm Nhân Viên</button>
+        <button class="btn btn-primary" id="XuatThongTin">Xuất Thông Tin NV</button>
+    </div>
+    <div class="container">
+        <h2>Danh Sách Nhân Viên</h2>
+        <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">Mã Nhân Viên</th>
+                    <th scope="col">Họ Tên</th>
+                    <th scope="col">Lương CB</th>
+                    <th scope="col">Loại Nhân Viên</th>
+                    <th scope="col">Lương Hệ Số</th>
+                  </tr>
+                </thead>
+                <tbody id="capnhatnhanvien">
+                </tbody>
+              </table>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+</html>
